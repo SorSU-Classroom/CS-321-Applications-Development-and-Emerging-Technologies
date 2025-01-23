@@ -1,0 +1,614 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX book template                           %%
+%% Author:  Amber Jain (http://amberj.devio.us/) %%
+%% License: ISC license                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt,oneside]{book}
+\usepackage{modulestyle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 'dedication' environment: To add a dedication paragraph at the start of book %
+% Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{dedication}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedright
+}
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter quote at the start of chapter        %
+% Source: http://tex.stackexchange.com/a/53380 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First page of book which contains 'stuff' like: %
+%  - Book title, subtitle                         %
+%  - Book author name                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\BookTitle}{Applications Development and Emerging Technologies}
+\newcommand{\BookTitleFootnote}{A course in the Bachelor of Science in Computer Science.}
+
+\newcommand{\BookSubtitle}{A Study Guide for Students of Sorsogon State University - Bulan Campus}
+\newcommand{\BookSubtitleFootnote}{This book is a study guide for students of
+Sorsogon State University - Bulan Campus taking up the course Applications Development and Emerging Technologies.}
+
+\newcommand{\BookAuthorFirstName}{Jarrian Vince}
+\newcommand{\BookAuthorLastName}{Gojar}
+\newcommand{\BookAuthorName}{Jarrian Vince G. Gojar}
+\newcommand{\BookAuthorURL}{https://github.com/godkingjay}
+
+% Book's title and subtitle
+\title{\Huge \textbf{\BookTitle}  \footnote{\BookTitleFootnote} \\
+\huge \BookSubtitle \footnote{\BookSubtitleFootnote}}
+
+% Author
+\author{\textsc{\BookAuthorName}\thanks{\url{\BookAuthorURL}}}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Add a dedication paragraph to dedicate your book to someone %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{dedication}
+Sorsogon State University - Bulan Campus
+\end{dedication}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Auto-generated table of contents, list of figures and list of tables %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
+
+\mainmatter
+
+%%%%%%%%%%%
+% Preface %
+%%%%%%%%%%%
+\chapter*{Preface}
+% A Quote all about Applications Development and Emerging Technologies
+\begin{chapquote}{}
+\end{chapquote}
+
+\noindent \BookAuthorName \\
+\noindent \url{\BookAuthorURL}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%~ NEW CHAPTER STARTS HERE %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introduction to Applications Development and Emerging Technologies}
+
+\section{Introduction}
+
+\subsection{Application}
+
+An \textbf{application} is a software program that allows users to
+perform specific tasks. Applications for desktop or laptop computers
+are sometimes called \textbf{desktop applications}, while those for
+mobile devices are called \textbf{mobile apps}. When you open an 
+application, it runs inside the operating system until you close it.
+Most of the time, you will have more than one application open at
+the same time, which is known as \textbf{multitasking}.
+
+\subsection{Development}
+
+\textbf{Development} is the process of creating a software application.
+It includes designing the user interface, writing code, and testing
+the application for bugs. The goal of software development is to
+create a program that is easy to use and works correctly.
+
+\subsection{Emerging Technologies}
+
+\textbf{Emerging technologies} are new technologies that are currently
+being developed or will be developed in the next few years. These
+technologies have the potential to change the way we live and work.
+Some examples of emerging technologies include artificial intelligence,
+cloud computing, and the Internet of Things.
+
+\subsection{Application Development}
+
+\textbf{Application development} is the process of planning, designing,
+creating, testing, and deploying an application to perform various
+business operations. It can be done by massive organizations with large
+teams working on projects or by a single freelance developer.
+
+% \section{Software Development Life Cycle}
+
+% The \textbf{software development life cycle} (SDLC) is a process used by
+% software developers to design, develop, and test software applications.
+% The SDLC consists of several phases, including planning, analysis, design,
+% implementation, and maintenance.
+
+% \subsection{Different Types of Software Development Life Cycle Models}
+
+% There are several different types of software development life cycle models,
+% including:
+
+% \begin{itemize}
+%   \item Waterfall Model
+%   \item Agile Model
+%   \item Spiral Model
+%   \item V-Model
+%   \item Iterative Model
+% \end{itemize}
+
+% \subsubsection{Waterfall Model}
+
+% The \textbf{waterfall model} is a linear and sequential approach to software
+% development. It consists of several phases, including requirements gathering,
+% analysis, design, coding/implementation, testing, and maintenance. Each phase
+% must be completed before moving on to the next phase.
+
+% % Image from ./assets/sdlc/waterfall.png
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=1\textwidth]{./assets/sdlc/waterfall.png}
+%   \caption{Waterfall Model}
+%   \label{fig:waterfall}
+% \end{figure}
+
+% Figure \ref{fig:waterfall} shows the waterfall model.
+
+% \begin{itemize}
+%   \item \textbf{Requirements Gathering:} In this phase, the requirements
+%   for the software application are gathered from the client or end-users.
+%   This phase answers the question, "What does the customer want?".
+
+%   \item \textbf{Analysis:} In this phase, the requirements gathered in the
+%   previous phase are analyzed to determine the feasibility of the project.
+%   This phase answers the question, "What is the best way to achieve the
+%   customer's requirements?".
+
+%   \item \textbf{Design:} In this phase, the software application is
+%   designed based on the requirements gathered in the previous phases.
+%   This phase answers the question, "How will the software application
+%   look and function?".
+
+%   \item \textbf{Coding/Implementation:} In this phase, the software
+%   application is developed based on the design created in the previous
+%   phase. This phase answers the question, "How will the software
+%   application be built?".
+
+%   \item \textbf{Testing:} In this phase, the software application is
+%   tested to ensure that it works correctly and meets the requirements
+%   specified by the client or end-users. This phase answers the question,
+%   "Does the software application work as expected?".
+
+%   \item \textbf{Maintenance:} In this phase, the software application is
+%   maintained and updated to fix any bugs or issues that arise after the
+%   application has been deployed. This phase answers the question, "How
+%   can the software application be improved?".
+% \end{itemize}
+
+% \subsubsection{Agile Model}
+
+% The \textbf{agile model} is an iterative and incremental approach to
+% software development. It consists of several phases, including planning,
+% design, coding, testing, and deployment. The agile model allows for
+% flexibility and adaptability throughout the development process.
+
+% % Image from ./assets/sdlc/agile.png
+
+\section{Different Types of Application Development}
+
+There are several different types of application development, including:
+
+\begin{itemize}
+  \item Web Development
+  \item Mobile Development
+  \item Desktop Development
+  \item Game Development
+  \item Cloud Development
+\end{itemize}
+
+\subsection{Web Development}
+
+\textbf{Web development} is the process of creating websites and web
+applications. It involves designing the user interface, writing code,
+and testing the website for bugs. Web development can be divided into
+two categories: front-end development and back-end development.
+
+\subsubsection{Front-End Development}
+
+\textbf{Front-end development} is the process of creating the user
+interface of a website. It involves designing the layout, colors, and
+fonts of the website. Front-end developers use HTML, CSS, and JavaScript
+to create the user interface of a website.
+
+\begin{enumerate}
+  \item \textbf{HTML (HyperText Markup Language)} is the standard markup
+  language used to create web pages. It defines the structure of a web
+  page using a series of elements.
+
+  \item \textbf{CSS (Cascading Style Sheets)} is a style sheet language
+  used to define the appearance of a web page. It allows developers to
+  control the layout, colors, and fonts of a website.
+
+  \item \textbf{JavaScript} is a programming language used to create
+  interactive elements on a web page. It allows developers to add
+  functionality such as animations, pop-ups, and form validation to a
+  website.
+
+  \item \textbf{Bootstrap} is a front-end framework that allows developers
+  to create responsive and mobile-first websites. It provides a set of
+  pre-designed components, such as buttons, forms, and navigation bars,
+  that can be easily customized.
+
+  \item \textbf{React} is a JavaScript library used to create user
+  interfaces for single-page applications. It allows developers to build
+  reusable components that update automatically when the data changes.
+
+  \item \textbf{Angular} is a front-end framework that allows developers
+  to create dynamic web applications. It provides a set of tools and
+  libraries for building interactive user interfaces.
+
+  \item \textbf{Vue} is a progressive JavaScript framework used to create
+  user interfaces and single-page applications. It allows developers to
+  build interactive web applications with ease.
+\end{enumerate}
+
+The above tools and technologies are commonly used in front-end development
+to create responsive and interactive websites. HTML, CSS, and JavaScript
+are the building blocks of front-end development, while frameworks such
+as Bootstrap, React, Angular, and Vue provide additional features for
+building modern web applications.
+
+\subsubsection{Back-End Development}
+
+\textbf{Back-end development} is the process of creating the server-side
+logic of a website. It involves writing code that interacts with the
+database and processes data. Back-end developers use programming languages
+such as PHP, Python, and Ruby to create the server-side logic of a website.
+
+\begin{enumerate}
+  \item \textbf{Node.js} is a JavaScript runtime environment that allows
+  developers to run JavaScript on the server-side. It provides a set of
+  libraries and tools for building scalable and high-performance web
+  applications.
+
+  \item \textbf{Express} is a web application framework for Node.js. It
+  provides a set of features for building web applications, such as routing,
+  middleware, and templating.
+
+  \item \textbf{Django} is a high-level web framework for Python. It allows
+  developers to build web applications quickly and efficiently. Django
+  provides a set of tools and libraries for building secure and scalable
+  web applications.
+
+  \item \textbf{Flask} is a lightweight web framework for Python. It allows
+  developers to build web applications with minimal code. Flask provides
+  a set of tools and libraries for building simple and scalable web
+  applications.
+
+  \item \textbf{Ruby on Rails} is a web application framework for Ruby. It
+  provides a set of tools and libraries for building web applications
+  quickly and efficiently. Ruby on Rails follows the convention over
+  configuration principle, which allows developers to write less code
+  and focus on building the application.
+
+  \item \textbf{Laravel} is a web application framework for PHP. It
+  provides a set of tools and libraries for building web applications
+  quickly and efficiently. Laravel follows the model-view-controller
+  (MVC) architecture, which allows developers to separate the business
+  logic from the presentation layer.
+
+  \item \textbf{Spring} is a web application framework for Java. It
+  provides a set of tools and libraries for building enterprise-level
+  web applications. Spring follows the inversion of control (IoC)
+  principle, which allows developers to write loosely coupled code
+  and focus on building the application.
+\end{enumerate}
+
+The above tools and technologies are commonly used in back-end development
+to create the server-side logic of a website. Back-end developers use
+these tools to interact with the database, process data, and handle
+user requests on the server-side.
+
+\subsection{Mobile Development}
+
+\textbf{Mobile development} is the process of creating mobile applications
+for smartphones and tablets. It involves designing the user interface,
+writing code, and testing the mobile application for bugs. Mobile
+development can be divided into two categories: iOS development and
+Android development.
+
+\subsubsection{iOS Development}
+
+\textbf{iOS development} is the process of creating mobile applications
+for Apple devices, such as iPhones and iPads. It involves designing the
+user interface using Xcode and writing code in Swift or Objective-C.
+iOS developers use Xcode, Swift, and Objective-C to create mobile
+applications for Apple devices.
+
+\begin{enumerate}
+  \item \textbf{Xcode} is an integrated development environment (IDE)
+  used to create iOS applications. It provides a set of tools and
+  libraries for building mobile applications for Apple devices.
+
+  \item \textbf{Swift} is a programming language used to create iOS
+  applications. It provides a set of features for building mobile
+  applications, such as type safety, optionals, and generics.
+
+  \item \textbf{Objective-C} is a programming language used to create
+  iOS applications. It provides a set of features for building mobile
+  applications, such as dynamic typing, message passing, and memory
+  management.
+
+  \item \textbf{React Native} is a JavaScript framework used to create
+  mobile applications for Android and iOS devices. It allows developers
+  to build cross-platform mobile applications with a single codebase.
+
+  \item \textbf{Flutter} is a mobile UI framework used to create mobile
+  applications for Android and iOS devices. It allows developers to build
+  cross-platform mobile applications with a single codebase.
+\end{enumerate}
+
+The above tools and technologies are commonly used in iOS development
+to create mobile applications for Apple devices. iOS developers use
+these tools to design the user interface and write code for mobile
+applications.
+
+\subsubsection{Android Development}
+
+\textbf{Android development} is the process of creating mobile
+applications for Android devices. It involves designing the user
+interface using Android Studio and writing code in Java or Kotlin.
+Android developers use Android Studio, Java, and Kotlin to create
+mobile applications for Android devices.
+
+\begin{enumerate}
+  \item \textbf{Android Studio} is an integrated development environment
+  (IDE) used to create Android applications. It provides a set of tools
+  and libraries for building mobile applications for Android devices.
+
+  \item \textbf{Java} is a programming language used to create Android
+  applications. It provides a set of features for building mobile
+  applications, such as object-oriented programming, inheritance, and
+  polymorphism.
+
+  \item \textbf{Kotlin} is a programming language used to create Android
+  applications. It provides a set of features for building mobile
+  applications, such as null safety, extension functions, and coroutines.
+
+  \item \textbf{React Native} is a JavaScript framework used to create
+  mobile applications for Android and iOS devices. It allows developers
+  to build cross-platform mobile applications with a single codebase.
+
+  \item \textbf{Flutter} is a mobile UI framework used to create mobile
+  applications for Android and iOS devices. It allows developers to build
+  cross-platform mobile applications with a single codebase.
+\end{enumerate}
+
+The above tools and technologies are commonly used in Android development
+to create mobile applications for Android devices. Some of the tools here
+are also used in iOS development to create mobile applications for Apple
+devices. React Native and Flutter in particular are used to build
+cross-platform mobile applications for both Android and iOS devices.
+
+\subsection{Desktop Development}
+
+\textbf{Desktop development} is the process of creating desktop
+applications for Windows, macOS, and Linux. It involves designing the
+user interface, writing code, and testing the desktop application for
+bugs.
+
+\begin{enumerate}
+  \item \textbf{Electron} is a framework used to create desktop
+  applications with web technologies. It allows developers to build
+  cross-platform desktop applications with HTML, CSS, and JavaScript.
+
+  \item \textbf{JavaFX} is a framework used to create desktop applications
+  with Java. It provides a set of tools and libraries for building
+  cross-platform desktop applications with Java.
+
+  \item \textbf{Qt} is a framework used to create desktop applications
+  with C++. It provides a set of tools and libraries for building
+  cross-platform desktop applications with C++.
+
+  \item \textbf{WinForms} is a framework used to create desktop
+  applications with C\#. It provides a set of tools and libraries for
+  building desktop applications for Windows.
+
+  \item \textbf{WPF} is a framework used to create desktop applications
+  with C\#. It provides a set of tools and libraries for building
+  desktop applications for Windows.
+\end{enumerate}
+
+The above tools and technologies are commonly used in desktop development
+to create desktop applications for Windows, macOS, and Linux. For
+Windows, developers use WinForms and WPF to create desktop applications
+with C\#. For cross-platform desktop applications, developers use
+Electron, JavaFX, and Qt to build desktop applications with web
+technologies, Java, and C++.
+
+\subsection{Game Development}
+
+\textbf{Game development} is the process of creating video games for
+consoles, computers, and mobile devices. It involves designing the
+gameplay, writing code, and testing the game for bugs.
+
+\begin{enumerate}
+  \item \textbf{Unity} is a game engine used to create 2D and 3D games
+  for consoles, computers, and mobile devices. It provides a set of
+  tools and libraries for building cross-platform games with C\#.
+
+  \item \textbf{Unreal Engine} is a game engine used to create 2D and
+  3D games for consoles, computers, and mobile devices. It provides a
+  set of tools and libraries for building cross-platform games with C++.
+
+  \item \textbf{Godot} is a game engine used to create 2D and 3D games
+  for consoles, computers, and mobile devices. It provides a set of
+  tools and libraries for building cross-platform games with GDScript.
+
+  \item \textbf{GameMaker Studio} is a game engine used to create 2D
+  games for consoles, computers, and mobile devices. It provides a set
+  of tools and libraries for building cross-platform games with GML.
+
+  \item \textbf{Construct} is a game engine used to create 2D games for
+  consoles, computers, and mobile devices. It provides a set of tools
+  and libraries for building cross-platform games with events.
+\end{enumerate}
+
+The above tools and technologies are commonly used in game development
+to create video games for consoles, computers, and mobile devices. Unity,
+Unreal Engine, Godot, GameMaker Studio, and Construct are popular game
+engines used by game developers to create 2D and 3D games. These game
+engines provide a set of tools and libraries for building cross-platform
+games with C\#, C++, GDScript, and GML.
+
+\subsection{Cloud Development}
+
+\textbf{Cloud development} is the process of creating cloud-based
+applications that run on remote servers. It involves designing the
+user interface, writing code, and testing the cloud application for
+bugs.
+
+\begin{enumerate}
+  \item \textbf{Amazon Web Services (AWS)} is a cloud platform used to
+  create cloud-based applications. It provides a set of tools and
+  services for building scalable and secure cloud applications.
+
+  \item \textbf{Microsoft Azure} is a cloud platform used to create
+  cloud-based applications. It provides a set of tools and services
+  for building scalable and secure cloud applications.
+
+  \item \textbf{Google Cloud Platform (GCP)} is a cloud platform used
+  to create cloud-based applications. It provides a set of tools and
+  services for building scalable and secure cloud applications.
+
+  \item \textbf{Heroku} is a cloud platform used to create cloud-based
+  applications. It provides a set of tools and services for building
+  scalable and secure cloud applications.
+
+  \item \textbf{Firebase} is a cloud platform used to create cloud-based
+  applications. It provides a set of tools and services for building
+  scalable and secure cloud applications.
+\end{enumerate}
+
+The above tools and technologies are commonly used in cloud development
+to create cloud-based applications that run on remote servers. AWS,
+Microsoft Azure, GCP, Heroku, and Firebase are popular cloud platforms
+used by developers to build scalable and secure cloud applications. These
+cloud platforms provide a set of tools and services for building
+cloud-based applications with ease.
+
+\chapter{Web Development}
+
+\section{Introduction}
+
+There are around 3.58 billion internet users on the planet. This implies
+that over half of the world's 7.6 billion people have access to the
+internet, which they use for everything from entertainment to education,
+communication to commerce, keeping up with current events, and keeping
+up with business experts. Indeed, for most people, the internet is the 
+first (and often only) channel through which we communicate with the
+world in all of its complexities.
+
+There are three interactive elements on the internet:
+
+\begin{enumerate}
+  \item \textbf{Websites} - A collection of web pages that are linked
+  together and share a common domain name.
+
+  \item \textbf{Servers} - A computer or computer program that manages
+  access to a centralized resource or service in a network.
+
+  \item \textbf{Browsers} - A software application used to access and
+  view websites on the internet.
+\end{enumerate}
+
+The frontend (client side) and the backend (server side) are two parts of any
+website. The frontend comprises everything the user sees and experiences
+instantly while visiting a website. The backend is behind the scenes that store,
+send and receive information.
+
+HTML, CSS, and Javascript files make up everything a user sees on a website.
+As a web developer, these are the most basic tools needed. They are the
+languages that required to build websites.
+
+\section{HTML}
+
+\textbf{HTML (HyperText Markup Language)} is the standard markup language
+used to create web pages. It defines the structure of a web page using a
+series of elements. It contains the essential elements of a website, such
+as words, titles, and p aragraphs, as well as links, images, and other
+media. HTML elements are represented by tags, which are enclosed in angle
+brackets. 
+
+\begin{lstlisting}[language=HTML, caption={HTML Example}, label={lst:html-example}]
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Web Page</title>
+</head>
+
+<body>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my website.</p>
+</body>
+
+</html>
+\end{lstlisting}
+
+Listing \ref{lst:html-example} shows an example of an HTML document. The
+\texttt{<!DOCTYPE html>} declaration defines the document type and version
+of HTML. The \texttt{<html>} element contains the entire HTML document.
+The \texttt{<head>} element contains metadata about the document, such as
+the title of the page. The \texttt{<body>} element contains the content of
+the page, such as headings, paragraphs, and other elements.
+
+\chapter{Version Control}
+
+\chapter{NextJS}
+
+\chapter{Mobile Applications Development}
+
+\chapter{Cloud Computing}
+
+\chapter{Artificial Intelligence}
+
+\chapter{Internet of Things and Augmented Reality}
+
+\begin{enumerate}[label={\textbf{\Alph*.}}]
+  \item \textbf{Books}
+    \begin{itemize}
+      \item 
+    \end{itemize}
+  \item \textbf{Other Sources}
+    \begin{itemize}
+      \item 
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
