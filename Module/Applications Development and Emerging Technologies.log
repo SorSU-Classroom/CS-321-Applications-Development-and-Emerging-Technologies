@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  24 JAN 2025 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  24 JAN 2025 22:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,7 +1165,7 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 559.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 570.
 
 
 [8
@@ -1237,15 +1237,15 @@ Package rerunfilecheck Info: File `"Applications Development and Emerging Techno
 (rerunfilecheck)             Checksum: 3748FCE7F984A95B5B50BBAECFEDC50E;8582.
  ) 
 Here is how much of TeX's memory you used:
- 34785 strings out of 473207
- 652901 string characters out of 5720461
+ 34787 strings out of 473207
+ 652923 string characters out of 5720461
  1430444 words of memory out of 5000000
  56812 multiletter control sequences out of 15000+600000
- 670664 words of font info for 230 fonts, out of 8000000 for 9000
+ 670758 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,1382b,2277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Applications Development and Emerging Technologies.pdf" (32 pages, 366908 bytes).
+Output written on "Applications Development and Emerging Technologies.pdf" (32 pages, 368017 bytes).
 PDF statistics:
  925 PDF objects out of 1000 (max. 8388607)
  843 compressed objects within 9 object streams
