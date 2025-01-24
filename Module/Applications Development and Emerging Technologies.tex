@@ -551,9 +551,10 @@ languages that required to build websites.
 \textbf{HTML (HyperText Markup Language)} is the standard markup language
 used to create web pages. It defines the structure of a web page using a
 series of elements. It contains the essential elements of a website, such
-as words, titles, and p aragraphs, as well as links, images, and other
+as words, titles, and paragraphs, as well as links, images, and other
 media. HTML elements are represented by tags, which are enclosed in angle
-brackets. 
+brackets. HTML forms the backbone of any webpage, dictating its structure
+and content.
 
 \begin{lstlisting}[language=HTML, caption={HTML Example}, label={lst:html-example}]
 <!DOCTYPE html>
@@ -573,12 +574,596 @@ brackets.
 </html>
 \end{lstlisting}
 
-Code \ref{lst:html-example} shows an example of an HTML document. The
-\texttt{<!DOCTYPE html>} declaration defines the document type and version
-of HTML. The \texttt{<html>} element contains the entire HTML document.
-The \texttt{<head>} element contains metadata about the document, such as
-the title of the page. The \texttt{<body>} element contains the content of
-the page, such as headings, paragraphs, and other elements.
+Code \ref{lst:html-example} shows an example of an HTML document. An
+HTML boilerplate usually looks like this:
+
+\begin{itemize}
+  \item \textbf{<!DOCTYPE html>} - Defines the document type and version
+  of HTML. In this case, it is HTML5.
+  \item \textbf{<html>} - Defines the root element of an HTML page.
+  \item \textbf{<head>} - Contains meta-information about the document,
+  such as the title, character set, and viewport.
+  \item \textbf{<body>} - Contains the content of the document, such as
+  headings, paragraphs, and images.
+\end{itemize}
+
+\subsection{HTML Tags}
+
+HTML tags are used to define the structure and content of a web page.
+They are enclosed in angle brackets and come in pairs: an opening tag
+and a closing tag. The opening tag is used to define the beginning of
+an element, while the closing tag is used to define the end of an element.
+
+\subsubsection{<html>...</html>}
+
+This tag specifies that the webpage is written
+in HTML. It appears at the very first and last line
+of the webpage. It is mainly used to show that
+the page uses HTML5 – the latest version of
+the language. Also known as the root element,
+this tag can be thought of as a parent tag for
+every other tag used in the page.
+
+\begin{lstlisting}[language=HTML, caption={HTML <html> Tag}, label={lst:html-tag}]
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Content goes here -->
+</html>
+\end{lstlisting}
+
+Code \ref{lst:html-tag} shows an example of the <html> tag. Here, the
+\textbf{lang} attribute specifies the language of the document, which
+is English in this case.
+
+\subsubsection{<head>...</head>}
+
+This tag is used to define the head section of the
+webpage. The head section contains meta-information
+about the document, such as the title, character set,
+and viewport. It is not displayed on the webpage but
+is used to provide information about the document to
+the browser and search engines.
+
+\begin{lstlisting}[language=HTML, caption={HTML <head> Tag}, label={lst:head-tag}]
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Web Page</title>
+</head>
+\end{lstlisting}
+
+Code \ref{lst:head-tag} shows an example of the <head> tag. Here, the
+\textbf{<meta>} tag is used to define the character set and viewport of
+the document, while the \textbf{<title>} tag is used to define the title
+of the document. This title appears in the browser tab.
+
+\subsubsection{<title>...</title>}
+
+This tag is used to define the title of the document.
+It appears in the browser tab and is used to identify
+the webpage.
+
+\begin{lstlisting}[language=HTML, caption={HTML <title> Tag}, label={lst:title-tag}]
+<title>First Web Page</title>
+\end{lstlisting}
+
+Code \ref{lst:title-tag} shows an example of the <title> tag. Here, the
+title of the document is "First Web Page". This title appears in the
+browser tab when the document is opened.
+
+\subsubsection{<body>...</body>}
+
+This tag is used to define the body section of the
+webpage. The body section contains the content of
+the document, such as headings, paragraphs, and
+images. It is displayed on the webpage and is
+visible to the user.
+
+\begin{lstlisting}[language=HTML, caption={HTML <body> Tag}, label={lst:body-tag}]
+<body>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my website.</p>
+</body>
+\end{lstlisting}
+
+Code \ref{lst:body-tag} shows an example of the <body> tag. Here, the
+\textbf{<h1>} tag is used to define a heading, while the \textbf{<p>}
+tag is used to define a paragraph. This content is displayed on the
+webpage and is visible to the user.
+
+\subsubsection{<h1>...</h1> to <h6>...</h6>}
+
+These tags are used to define headings of different
+sizes. The \textbf{<h1>} tag defines the largest heading,
+while the \textbf{<h6>} tag defines the smallest heading.
+Headings are used to define the structure of the document
+and provide a hierarchy of information.
+
+\begin{lstlisting}[language=HTML, caption={HTML <h1> to <h6> Tags}, label={lst:h-tag}]
+<h1>This is a Heading 1</h1>
+<h2>This is a Heading 2</h2>
+<h3>This is a Heading 3</h3>
+<h4>This is a Heading 4</h4>
+<h5>This is a Heading 5</h5>
+<h6>This is a Heading 6</h6>
+\end{lstlisting}
+
+Code \ref{lst:h-tag} shows an example of the \textbf{<h1>} to
+\textbf{<h6>} tags. These tags are used to define headings of
+different sizes, with \textbf{<h1>} being the largest and
+\textbf{<h6>} being the smallest.
+
+\subsubsection{<p>...</p>}
+
+This tag is used to define a paragraph of text. It is
+used to group text content together and provide structure
+to the document.
+
+\begin{lstlisting}[language=HTML, caption={HTML <p> Tag}, label={lst:p-tag}]
+<p>
+  Excepteur officia tempor do laborum commodo cupidatat ea Lorem qui irure enim velit. Adipisicing dolor minim Lorem nulla dolor quis et aliqua. Officia anim adipisicing excepteur sint elit qui laboris reprehenderit non elit. Voluptate voluptate duis aliqua proident elit exercitation cillum anim reprehenderit nostrud minim culpa veniam.
+</p>
+\end{lstlisting}
+
+Code \ref{lst:p-tag} shows an example of the \textbf{<p>} tag. This tag
+is used to define a paragraph of text, which is displayed on the webpage.
+
+\subsubsection{<div>...</div>}
+
+This tag is used to define a division or section of
+the document. It is a block-level element that can
+contain other block-level or inline elements.
+
+\begin{lstlisting}[language=HTML, caption={HTML <div> Tag}, label={lst:div-tag}]
+<div>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my website.</p>
+</div>
+
+<div>
+    <img src="https://avatar.iran.liara.run/public/boy" alt="Image" />
+    <img src="https://avatar.iran.liara.run/public/girl" alt="Image" />
+</div>
+\end{lstlisting}
+
+Code \ref{lst:div-tag} shows an example of the \textbf{<div>} tag. This
+tag is used to define a division or section of the document, which can
+contain other elements such as headings, paragraphs, and images.
+
+\subsubsection{<span>...</span>}
+
+This tag is used to define a span of text. It is an
+inline element that can contain other inline elements.
+
+\begin{lstlisting}[language=HTML, caption={HTML <span> Tag}, label={lst:span-tag}]
+<p>Welcome to my <span>website</span>.</p>
+\end{lstlisting}
+
+Code \ref{lst:span-tag} shows an example of the \textbf{<span>} tag. This
+tag is used to define a span of text, which can be styled separately from
+the rest of the paragraph.
+
+\subsubsection{<br />}
+This tag is used to insert a line break in the document.
+It is a self-closing tag that does not require a closing tag.
+
+\begin{lstlisting}[language=HTML, caption={HTML <br /> Tag}, label={lst:br-tag}]
+<p>Welcome to my <br /> website.</p>
+\end{lstlisting}
+
+Code \ref{lst:br-tag} shows an example of the \textbf{<br />} tag. This
+tag is used to insert a line break in the document, which moves the
+content to the next line.
+
+\subsubsection{<hr />}
+
+This tag is used to insert a horizontal rule in the
+document. It is a self-closing tag that creates a
+horizontal line across the page.
+
+\begin{lstlisting}[language=HTML, caption={HTML <hr /> Tag}, label={lst:hr-tag}]
+<p>Welcome to my website.</p>
+<hr />
+<p>Thank you for visiting.</p>
+\end{lstlisting}
+
+Code \ref{lst:hr-tag} shows an example of the \textbf{<hr />} tag. This
+tag is used to insert a horizontal rule in the document, which creates
+a horizontal line across the page.
+
+\subsubsection{<img />}
+
+This tag is used to insert an image in the document.
+It is a self-closing tag that requires the \textbf{src}
+attribute to specify the image file.
+
+\begin{lstlisting}[language=HTML, caption={HTML <img /> Tag}, label={lst:img-tag}]
+<img src="https://avatar.iran.liara.run/public" alt="Image" />
+\end{lstlisting}
+
+Code \ref{lst:img-tag} shows an example of the \textbf{<img />} tag. This
+tag is used to insert an image in the document, which is displayed on the
+webpage. The \textbf{src} attribute specifies the image file, while the
+\textbf{alt} attribute provides alternative text for the image.
+
+\subsubsection{<a>...</a>}
+
+This tag is used to create a hyperlink in the document.
+It requires the \textbf{href} attribute to specify the
+URL of the link.
+
+\begin{lstlisting}[language=HTML, caption={HTML <a> Tag}, label={lst:a-tag}]
+<a href="https://www.github.com/godkingjay">Visit GitHub</a>
+\end{lstlisting}
+
+Code \ref{lst:a-tag} shows an example of the \textbf{<a>} tag. This tag
+is used to create a hyperlink in the document, which links to the
+specified URL. The \textbf{href} attribute specifies the URL of the link.
+
+\subsubsection{<ul>...</ul>}
+
+This tag is used to create an unordered list in the
+document. It contains a list of items that are displayed
+with bullet points.
+
+\begin{lstlisting}[language=HTML, caption={HTML <ul> Tag}, label={lst:ul-tag}]
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+\end{lstlisting}
+
+Code \ref{lst:ul-tag} shows an example of the \textbf{<ul>} tag. This tag
+is used to create an unordered list in the document, which contains a list
+of items displayed with bullet points. The \textbf{<li>} tag is used to
+define each item in the list.
+
+\subsubsection{<ol>...</ol>}
+
+This tag is used to create an ordered list in the
+document. It contains a list of items that are displayed
+with numbers or letters.
+
+\begin{lstlisting}[language=HTML, caption={HTML <ol> Tag}, label={lst:ol-tag}]
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+\end{lstlisting}
+
+Code \ref{lst:ol-tag} shows an example of the \textbf{<ol>} tag. This tag
+is used to create an ordered list in the document, which contains a list
+of items displayed with numbers or letters. The \textbf{<li>} tag is used
+to define each item in the list.
+
+\subsubsection{<li>...</li>}
+This tag is used to define an item in a list. It is
+used inside the \textbf{<ul>} or \textbf{<ol>} tag to
+define each item in the list.
+
+\begin{lstlisting}[language=HTML, caption={HTML <li> Tag}, label={lst:li-tag}]
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+\end{lstlisting}
+
+Code \ref{lst:li-tag} shows an example of the \textbf{<li>} tag. This tag
+is used to define an item in a list, which is displayed as part of an
+unordered or ordered list.
+
+\subsubsection{<strong>...</strong>}
+
+This tag is used to define text that should be displayed
+in a strong or bold font. It is used to emphasize important
+text content.
+
+\begin{lstlisting}[language=HTML, caption={HTML <strong> Tag}, label={lst:strong-tag}]
+<p>Welcome to my <strong>website</strong>.</p>
+\end{lstlisting}
+
+Code \ref{lst:strong-tag} shows an example of the \textbf{<strong>} tag.
+This tag is used to define text that should be displayed in a strong or
+bold font, which emphasizes the importance of the text content.
+
+\subsubsection{<b>...</b>}
+
+Similar to the \textbf{<strong>} tag, this tag is used to
+define text that should be displayed in a bold font. It is
+used to emphasize important text content.
+
+\begin{lstlisting}[language=HTML, caption={HTML <b> Tag}, label={lst:b-tag}]
+<p>Welcome to my <b>website</b>.</p>
+\end{lstlisting}
+
+Code \ref{lst:b-tag} shows an example of the \textbf{<b>} tag. This tag
+is used to define text that should be displayed in a bold font, which
+emphasizes the importance of the text content.
+
+\subsubsection{<em>...</em>}
+
+This is another inline element that is used to define
+text that should be displayed in an emphasized or italic
+font. It is used to provide emphasis to text content.
+
+\begin{lstlisting}[language=HTML, caption={HTML <em> Tag}, label={lst:em-tag}]
+<p>Welcome to my <em>website</em>.</p>
+\end{lstlisting}
+
+Code \ref{lst:em-tag} shows an example of the \textbf{<em>} tag. This tag
+is used to define text that should be displayed in an emphasized or italic
+font, which provides emphasis to the text content.
+
+\subsubsection{<i>...</i>}
+
+Similar to the \textbf{<em>} tag, this tag is used to define
+text that should be displayed in an italic font. It is used
+to provide emphasis to text content.
+
+\begin{lstlisting}[language=HTML, caption={HTML <i> Tag}, label={lst:i-tag}]
+<p>Welcome to my <i>website</i>.</p>
+\end{lstlisting}
+
+Code \ref{lst:i-tag} shows an example of the \textbf{<i>} tag. This tag
+is used to define text that should be displayed in an italic font, which
+provides emphasis to the text content.
+
+\subsubsection{<table>...</table>}
+
+This tag is used to create a table in the document. It
+contains a set of rows and columns that display data in
+a structured format.
+
+\begin{lstlisting}[language=HTML, caption={HTML <table> Tag}, label={lst:table-tag}]
+<table border="1>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>30</td>
+    </tr>
+</table>
+\end{lstlisting}
+
+Code \ref{lst:table-tag} shows an example of the \textbf{<table>} tag.
+This tag is used to create a table in the document, which contains a set
+of rows and columns that display data in a structured format. The
+\textbf{<tr>} tag is used to define a row in the table, while the
+\textbf{<th>} tag is used to define a header cell and the \textbf{<td>}
+tag is used to define a data cell.
+
+\subsubsection{<tr>...</tr>}
+
+This tag is used to define a row in a table. It is used
+inside the \textbf{<table>} tag to define each row in the
+table.
+
+\begin{lstlisting}[language=HTML, caption={HTML <tr> Tag}, label={lst:tr-tag}]
+<table border="1>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>30</td>
+    </tr>
+</table>
+\end{lstlisting}
+
+Code \ref{lst:tr-tag} shows an example of the \textbf{<tr>} tag. This tag
+is used to define a row in a table, which contains a set of cells that
+display data in a structured format.
+
+\subsubsection{<th>...</th> and <td>...</td>}
+
+These tags are used to define header cells and data cells
+in a table, respectively. The \textbf{<th>} tag is used to
+define a header cell, while the \textbf{<td>} tag is used to
+define a data cell.
+
+\begin{lstlisting}[language=HTML, caption={HTML <th> and <td> Tags}, label={lst:th-td-tag}]
+<table border="1>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>30</td>
+    </tr>
+</table>
+\end{lstlisting}
+
+Code \ref{lst:th-td-tag} shows an example of the \textbf{<th>} and
+\textbf{<td>} tags. The \textbf{<th>} tag is used to define a header cell
+in a table, while the \textbf{<td>} tag is used to define a data cell in
+a table.
+
+\subsubsection{<form>...</form>}
+
+This tag is used to create a form in the document. It
+contains a set of form elements, such as input fields,
+buttons, and checkboxes, that allow users to submit data
+to a server.
+
+\begin{lstlisting}[language=HTML, caption={HTML <form> Tag}, label={lst:form-tag}]
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" />
+    <button type="submit">Submit</button>
+</form>
+\end{lstlisting}
+
+Code \ref{lst:form-tag} shows an example of the \textbf{<form>} tag. This
+tag is used to create a form in the document, which contains a set of form
+elements that allow users to submit data to a server.
+
+\subsubsection{<input />}
+
+This tag is used to create an input field in a form.
+It is a self-closing tag that requires the \textbf{type}
+attribute to specify the type of input field.
+
+\begin{lstlisting}[language=HTML, caption={HTML <input /> Tag}, label={lst:input-tag}]
+<form style="display: flex; flex-direction: column; gap: 8px;">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" />
+  </div>
+
+  <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="09" max="100" />
+  </div>
+
+  <div>
+    <label for="civil-status">Civil Status:</label>
+    <input type="radio" id="single" name="civil-status" value="single" /> Single
+    <input type="radio" id="married" name="civil-status" value="married" /> Married
+    <input type="radio" id="divorced" name="civil-status" value="divorced" /> Divorced
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" />
+  </div>
+
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" />
+  </div>
+
+  <div>
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color" />
+  </div>
+
+  <div>
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" name="date" />
+  </div>
+
+  <div>
+    <label for="time">Time of Birth:</label>
+    <input type="time" id="time" name="time" />
+  </div>
+
+  <div>
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file" />
+  </div>
+
+  <div>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+
+  <div>
+    <label for="agree">I agree to the terms and conditions:</label>
+    <input type="checkbox" id="agree" name="agree" value="yes" />
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
+\end{lstlisting}
+
+Code \ref{lst:input-tag} shows an example of the \textbf{<input />} tag.
+This tag is used to create an input field in a form, which allows users
+to enter data. The \textbf{type} attribute specifies the type of input
+field, such as text, number, email, or password.
+
+\subsubsection{<textarea>...</textarea>}
+
+This tag is used to create a textarea field in a form.
+It allows users to enter multiple lines of text.
+
+\begin{lstlisting}[language=HTML, caption={HTML <textarea> Tag}, label={lst:textarea-tag}]
+<label for="message">Message:</label>
+<textarea id="message" name="message"></textarea>
+\end{lstlisting}
+
+Code \ref{lst:textarea-tag} shows an example of the \textbf{<textarea>}
+tag. This tag is used to create a textarea field in a form, which allows
+users to enter multiple lines of text.
+
+\subsubsection{<button>...</button>}
+
+This tag is used to create a button in a form. It is
+used to submit the form data to a server or perform
+an action when clicked.
+
+\begin{lstlisting}[language=HTML, caption={HTML <button> Tag}, label={lst:button-tag}]
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button type="button">Click Me</button>
+\end{lstlisting}
+
+Code \ref{lst:button-tag} shows an example of the \textbf{<button>} tag.
+This tag is used to create a button in a form, which allows users to
+submit the form data to a server or perform an action when clicked. The
+\textbf{type} attribute specifies the type of button, such as submit,
+reset, or button.
+
+\subsubsection{<label>...</label>}
+
+This tag is used to create a label for an input field
+in a form. It is used to provide a description or name
+for the input field.
+
+\begin{lstlisting}[language=HTML, caption={HTML <label> Tag}, label={lst:label-tag}]
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" />
+\end{lstlisting}
+
+Code \ref{lst:label-tag} shows an example of the \textbf{<label>} tag.
+This tag is used to create a label for an input field in a form, which
+provides a description or name for the input field. The \textbf{for}
+attribute specifies the ID of the input field that the label is associated
+with.
+
+\subsubsection{<select>...</select>}
+
+This tag is used to create a dropdown list in a form.
+It contains a set of \textbf{<option>} tags that define
+the options in the dropdown list.
+
+\begin{lstlisting}[language=HTML, caption={HTML <select> Tag}, label={lst:select-tag}]
+<select id="color" name="color">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+</select>
+\end{lstlisting}
+
+Code \ref{lst:select-tag} shows an example of the \textbf{<select>} tag.
+This tag is used to create a dropdown list in a form, which contains a set
+of \textbf{<option>} tags that define the options in the dropdown list. The
+\textbf{id} attribute specifies the ID of the dropdown list, while the
+\textbf{name} attribute specifies the name of the dropdown list.
 
 \chapter{Version Control}
 

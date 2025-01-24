@@ -488,6 +488,7 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 OUTPUT Applications Development and Emerging Technologies.toc
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./Applications Development and Emerging Technologies.lof
 INPUT ./Applications Development and Emerging Technologies.lof
 INPUT Applications Development and Emerging Technologies.lof
@@ -510,7 +511,6 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
