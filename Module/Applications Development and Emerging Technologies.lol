@@ -45,13 +45,37 @@
 \contentsline {lstlisting}{\numberline {2.45}{\ignorespaces Pseudo-class CSS}}{25}{lstlisting.2.45}%
 \contentsline {lstlisting}{\numberline {2.46}{\ignorespaces Pseudo-element HTML}}{25}{lstlisting.2.46}%
 \contentsline {lstlisting}{\numberline {2.47}{\ignorespaces Pseudo-element CSS}}{25}{lstlisting.2.47}%
-\contentsline {lstlisting}{\numberline {2.48}{\ignorespaces Font Color}}{27}{lstlisting.2.48}%
-\contentsline {lstlisting}{\numberline {2.49}{\ignorespaces Background Color}}{28}{lstlisting.2.49}%
-\contentsline {lstlisting}{\numberline {2.50}{\ignorespaces Border Color}}{28}{lstlisting.2.50}%
-\contentsline {lstlisting}{\numberline {2.51}{\ignorespaces Color Names}}{28}{lstlisting.2.51}%
-\contentsline {lstlisting}{\numberline {2.52}{\ignorespaces Hexadecimal Colors}}{29}{lstlisting.2.52}%
-\contentsline {lstlisting}{\numberline {2.53}{\ignorespaces RGB Colors}}{29}{lstlisting.2.53}%
-\contentsline {lstlisting}{\numberline {2.54}{\ignorespaces HSL Colors}}{30}{lstlisting.2.54}%
-\contentsline {lstlisting}{\numberline {2.55}{\ignorespaces Gradients}}{30}{lstlisting.2.55}%
-\contentsline {lstlisting}{\numberline {2.56}{\ignorespaces Background Image}}{30}{lstlisting.2.56}%
-\contentsline {lstlisting}{\numberline {2.57}{\ignorespaces Background Size}}{30}{lstlisting.2.57}%
+\contentsline {lstlisting}{\numberline {2.48}{\ignorespaces Font Color HTML}}{27}{lstlisting.2.48}%
+\contentsline {lstlisting}{\numberline {2.49}{\ignorespaces Font Color CSS}}{27}{lstlisting.2.49}%
+\contentsline {lstlisting}{\numberline {2.50}{\ignorespaces Background Color HTML}}{28}{lstlisting.2.50}%
+\contentsline {lstlisting}{\numberline {2.51}{\ignorespaces Background Color CSS}}{28}{lstlisting.2.51}%
+\contentsline {lstlisting}{\numberline {2.52}{\ignorespaces Border Color HTML}}{28}{lstlisting.2.52}%
+\contentsline {lstlisting}{\numberline {2.53}{\ignorespaces Border Color CSS}}{28}{lstlisting.2.53}%
+\contentsline {lstlisting}{\numberline {2.54}{\ignorespaces Color Names HTML}}{29}{lstlisting.2.54}%
+\contentsline {lstlisting}{\numberline {2.55}{\ignorespaces Color Names CSS}}{29}{lstlisting.2.55}%
+\contentsline {lstlisting}{\numberline {2.56}{\ignorespaces Hexadecimal Colors HTML}}{29}{lstlisting.2.56}%
+\contentsline {lstlisting}{\numberline {2.57}{\ignorespaces Hexadecimal Colors CSS}}{29}{lstlisting.2.57}%
+\contentsline {lstlisting}{\numberline {2.58}{\ignorespaces RGB Colors HTML}}{30}{lstlisting.2.58}%
+\contentsline {lstlisting}{\numberline {2.59}{\ignorespaces RGB Colors CSS}}{30}{lstlisting.2.59}%
+\contentsline {lstlisting}{\numberline {2.60}{\ignorespaces HSL Colors HTML}}{30}{lstlisting.2.60}%
+\contentsline {lstlisting}{\numberline {2.61}{\ignorespaces HSL Colors CSS}}{30}{lstlisting.2.61}%
+\contentsline {lstlisting}{\numberline {2.62}{\ignorespaces Gradients HTML}}{31}{lstlisting.2.62}%
+\contentsline {lstlisting}{\numberline {2.63}{\ignorespaces Gradients CSS}}{31}{lstlisting.2.63}%
+\contentsline {lstlisting}{\numberline {2.64}{\ignorespaces Background Image}}{31}{lstlisting.2.64}%
+\contentsline {lstlisting}{\numberline {2.65}{\ignorespaces Background Size}}{31}{lstlisting.2.65}%
+\contentsline {lstlisting}{\numberline {2.66}{\ignorespaces Margin HTML}}{32}{lstlisting.2.66}%
+\contentsline {lstlisting}{\numberline {2.67}{\ignorespaces Margin CSS}}{32}{lstlisting.2.67}%
+\contentsline {lstlisting}{\numberline {2.68}{\ignorespaces Padding HTML}}{32}{lstlisting.2.68}%
+\contentsline {lstlisting}{\numberline {2.69}{\ignorespaces Padding CSS}}{33}{lstlisting.2.69}%
+\contentsline {lstlisting}{\numberline {2.70}{\ignorespaces Border HTML}}{33}{lstlisting.2.70}%
+\contentsline {lstlisting}{\numberline {2.71}{\ignorespaces Border CSS}}{33}{lstlisting.2.71}%
+\contentsline {lstlisting}{\numberline {2.72}{\ignorespaces Space Between HTML}}{34}{lstlisting.2.72}%
+\contentsline {lstlisting}{\numberline {2.73}{\ignorespaces Space Between CSS}}{34}{lstlisting.2.73}%
+\contentsline {lstlisting}{\numberline {2.74}{\ignorespaces Width and Height HTML}}{34}{lstlisting.2.74}%
+\contentsline {lstlisting}{\numberline {2.75}{\ignorespaces Width and Height CSS}}{35}{lstlisting.2.75}%
+\contentsline {lstlisting}{\numberline {2.76}{\ignorespaces Radius HTML}}{35}{lstlisting.2.76}%
+\contentsline {lstlisting}{\numberline {2.77}{\ignorespaces Radius CSS}}{35}{lstlisting.2.77}%
+\contentsline {lstlisting}{\numberline {2.78}{\ignorespaces Box Shadow HTML}}{36}{lstlisting.2.78}%
+\contentsline {lstlisting}{\numberline {2.79}{\ignorespaces Box Shadow CSS}}{36}{lstlisting.2.79}%
+\contentsline {lstlisting}{\numberline {2.80}{\ignorespaces Opacity HTML}}{37}{lstlisting.2.80}%
+\contentsline {lstlisting}{\numberline {2.81}{\ignorespaces Opacity CSS}}{37}{lstlisting.2.81}%
