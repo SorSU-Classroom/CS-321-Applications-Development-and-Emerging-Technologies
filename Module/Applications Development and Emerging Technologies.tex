@@ -605,6 +605,30 @@ They are enclosed in angle brackets and come in pairs: an opening tag
 and a closing tag. The opening tag is used to define the beginning of
 an element, while the closing tag is used to define the end of an element.
 
+When an HTML tag is opened, it must be closed to avoid errors. Some tags
+are self-closing, meaning they do not require a closing tag. HTML tags
+can also have attributes, which provide additional information about the
+element.
+
+% Example of Open and Close Tag
+\begin{lstlisting}[language=HTML, caption={HTML Open and Close Tag}, label={lst:open-close-tag}]
+<p>Welcome to my website.</p>
+\end{lstlisting}
+
+Code \ref{lst:open-close-tag} shows an example of an HTML tag with an
+opening tag (\textbf{<p>}) and a closing tag (\textbf{</p>}). The content
+of the paragraph is "Welcome to my website.".
+
+% Example of Self-Closing Tag
+\begin{lstlisting}[language=HTML, caption={HTML Self-Closing Tag}, label={lst:self-closing-tag}]
+<img src="https://avatar.iran.liara.run/public" alt="Image" />
+\end{lstlisting}
+
+Code \ref{lst:self-closing-tag} shows an example of an HTML tag that is
+self-closing (\textbf{<img />}). This tag is used to insert an image into
+the document. The \textbf{src} attribute specifies the URL of the image,
+while the \textbf{alt} attribute provides a text description of the image.
+
 \subsubsection{<html>...</html>}
 
 This tag specifies that the webpage is written

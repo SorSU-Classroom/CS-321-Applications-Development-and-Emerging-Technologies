@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  25 JAN 2025 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  25 JAN 2025 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1193,47 +1193,49 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 [18]
 
 [19]
-Overfull \hbox (1130.68762pt too wide) in paragraph at lines 1215--1216
+
+[20]
+Overfull \hbox (1130.68762pt too wide) in paragraph at lines 1239--1240
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
 
-[20]
+[21]
  3.
-
-
-[21
-
-]
- 4.
 
 
 [22
 
 ]
- 5.
+ 4.
 
 
 [23
 
 ]
- 6.
+ 5.
 
 
 [24
 
 ]
- 7.
+ 6.
 
 
 [25
 
 ]
- 8.
+ 7.
 
 
 [26
+
+]
+ 8.
+
+
+[27
 
 ] (./Applications Development and Emerging Technologies.aux)
  ***********
@@ -1244,18 +1246,18 @@ Package rerunfilecheck Info: File `"Applications Development and Emerging Techno
 (rerunfilecheck)             Checksum: A57527C8ACFEAC91EAA8826A88ACF163;8938.
  ) 
 Here is how much of TeX's memory you used:
- 34816 strings out of 473207
- 653385 string characters out of 5720461
- 1445444 words of memory out of 5000000
- 56819 multiletter control sequences out of 15000+600000
- 670852 words of font info for 232 fonts, out of 8000000 for 9000
+ 34825 strings out of 473207
+ 653539 string characters out of 5720461
+ 1426444 words of memory out of 5000000
+ 56821 multiletter control sequences out of 15000+600000
+ 670946 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,1382b,2277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Applications Development and Emerging Technologies.pdf" (33 pages, 371475 bytes).
+Output written on "Applications Development and Emerging Technologies.pdf" (34 pages, 373723 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
- 880 compressed objects within 9 object streams
- 381 named destinations out of 1000 (max. 500000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 892 compressed objects within 9 object streams
+ 386 named destinations out of 1000 (max. 500000)
  63037 words of extra memory for PDF output out of 74296 (max. 10000000)
 
