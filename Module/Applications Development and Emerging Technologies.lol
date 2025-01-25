@@ -26,7 +26,7 @@
 \contentsline {lstlisting}{\numberline {2.26}{\ignorespaces HTML <th> and <td> Tags}}{17}{lstlisting.2.26}%
 \contentsline {lstlisting}{\numberline {2.27}{\ignorespaces HTML <form> Tag}}{18}{lstlisting.2.27}%
 \contentsline {lstlisting}{\numberline {2.28}{\ignorespaces HTML <input /> Tag}}{18}{lstlisting.2.28}%
-\contentsline {lstlisting}{\numberline {2.29}{\ignorespaces HTML <textarea> Tag}}{19}{lstlisting.2.29}%
+\contentsline {lstlisting}{\numberline {2.29}{\ignorespaces HTML <textarea> Tag}}{20}{lstlisting.2.29}%
 \contentsline {lstlisting}{\numberline {2.30}{\ignorespaces HTML <button> Tag}}{20}{lstlisting.2.30}%
 \contentsline {lstlisting}{\numberline {2.31}{\ignorespaces HTML <label> Tag}}{20}{lstlisting.2.31}%
 \contentsline {lstlisting}{\numberline {2.32}{\ignorespaces HTML <select> Tag}}{20}{lstlisting.2.32}%
