@@ -878,10 +878,11 @@ opens in the same tab.
 
 This tag is used to create an unordered list in the
 document. It contains a list of items that are displayed
-with bullet points.
+with bullet points. In the list, each item is defined
+using the \textbf{<li>} tag.
 
 \begin{lstlisting}[language=HTML, caption={HTML <ul> Tag}, label={lst:ul-tag}]
-<ul>
+<ul style="list-style-type: square;">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
@@ -891,7 +892,10 @@ with bullet points.
 Code \ref{lst:ul-tag} shows an example of the \textbf{<ul>} tag. This tag
 is used to create an unordered list in the document, which contains a list
 of items displayed with bullet points. The \textbf{<li>} tag is used to
-define each item in the list.
+define each item in the list. The \textbf{style} attribute is used to
+specify the style of the list, such as the type of bullet point.
+The \textbf{list-style-type} property specifies the type of bullet point
+to use, such as \textit{square}, \textit{circle}, or \textit{disc}.
 
 \subsubsection{<ol>...</ol>}
 
@@ -900,7 +904,7 @@ document. It contains a list of items that are displayed
 with numbers or letters.
 
 \begin{lstlisting}[language=HTML, caption={HTML <ol> Tag}, label={lst:ol-tag}]
-<ol>
+<ol type="A" start="3">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
@@ -910,7 +914,11 @@ with numbers or letters.
 Code \ref{lst:ol-tag} shows an example of the \textbf{<ol>} tag. This tag
 is used to create an ordered list in the document, which contains a list
 of items displayed with numbers or letters. The \textbf{<li>} tag is used
-to define each item in the list.
+to define each item in the list. The \textbf{type} attribute is used to
+specify the type of numbering to use, such as \textit{1}, \textit{A},
+\textit{a}, \textit{I}, or \textit{i}. The default type is \textit{1}.
+The \textbf{start} attribute is used to specify the starting number of
+the list. The default start number is \textit{1}.
 
 \subsubsection{<li>...</li>}
 This tag is used to define an item in a list. It is
