@@ -741,6 +741,33 @@ Code \ref{lst:div-tag} shows an example of the \textbf{<div>} tag. This
 tag is used to define a division or section of the document, which can
 contain other elements such as headings, paragraphs, and images.
 
+\subsubsection{<section>...</section>}
+
+This tag is used to define a section of the document.
+It is usually used to group related content together
+such as articles, blog posts, or product listings.
+
+\begin{lstlisting}[language=HTML, caption={HTML <section> Tag}, label={lst:section-tag}]
+<section>
+    <h2>Section 1</h2>
+    <p>Content for section 1 goes here.</p>
+</section>
+
+<section>
+    <h2>Section 2</h2>
+    <p>Content for section 2 goes here.</p>
+</section>
+
+<section>
+    <h2>Section 3</h2>
+    <p>Content for section 3 goes here.</p>
+</section>
+\end{lstlisting}
+
+Code \ref{lst:section-tag} shows an example of the \textbf{<section>} tag.
+This tag is used to define a section of the document, which can contain
+related content such as headings and paragraphs.
+
 \subsubsection{<span>...</span>}
 
 This tag is used to define a span of text. It is an
@@ -1175,6 +1202,25 @@ This tag is used to create a dropdown list in a form, which contains a set
 of \textbf{<option>} tags that define the options in the dropdown list. The
 \textbf{id} attribute specifies the ID of the dropdown list, while the
 \textbf{name} attribute specifies the name of the dropdown list.
+
+\subsubsection{<iframe>...</iframe>}
+
+This tag is used to embed another document within the
+current document. It is used to display content from
+another website or source. It can also be used to
+embed videos, maps, or other media.
+
+% Embed Google Maps
+\begin{lstlisting}[language=HTML, caption={HTML <iframe> Tag}, label={lst:iframe-tag}]
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.073013545073!2d3.379207314769073!3d6.524379395292432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e3b7f2b7e3d%3A0x1f8b0e1a1f4b7b0!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1633663660137!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+\end{lstlisting}
+
+Code \ref{lst:iframe-tag} shows an example of the \textbf{<iframe>} tag.
+This tag is used to embed another document within the current document,
+which displays content from another website or source. The \textbf{src}
+attribute specifies the URL of the document to be embedded, while the
+\textbf{width} and \textbf{height} attributes specify the dimensions of
+the embedded document. In this example, an embedded Google Maps is shown.
 
 \chapter{Version Control}
 

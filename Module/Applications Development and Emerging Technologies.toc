@@ -28,30 +28,32 @@
 \contentsline {subsubsection}{\numberline {2.2.1.5}<h1>...</h1> to <h6>...</h6>}{11}{subsubsection.2.2.1.5}%
 \contentsline {subsubsection}{\numberline {2.2.1.6}<p>...</p>}{11}{subsubsection.2.2.1.6}%
 \contentsline {subsubsection}{\numberline {2.2.1.7}<div>...</div>}{11}{subsubsection.2.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.2.1.8}<span>...</span>}{12}{subsubsection.2.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.2.1.9}<br />}{12}{subsubsection.2.2.1.9}%
-\contentsline {subsubsection}{\numberline {2.2.1.10}<hr />}{12}{subsubsection.2.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.2.1.11}<img />}{12}{subsubsection.2.2.1.11}%
-\contentsline {subsubsection}{\numberline {2.2.1.12}<a>...</a>}{13}{subsubsection.2.2.1.12}%
-\contentsline {subsubsection}{\numberline {2.2.1.13}<ul>...</ul>}{13}{subsubsection.2.2.1.13}%
-\contentsline {subsubsection}{\numberline {2.2.1.14}<ol>...</ol>}{13}{subsubsection.2.2.1.14}%
-\contentsline {subsubsection}{\numberline {2.2.1.15}<li>...</li>}{14}{subsubsection.2.2.1.15}%
-\contentsline {subsubsection}{\numberline {2.2.1.16}<strong>...</strong>}{14}{subsubsection.2.2.1.16}%
-\contentsline {subsubsection}{\numberline {2.2.1.17}<b>...</b>}{14}{subsubsection.2.2.1.17}%
-\contentsline {subsubsection}{\numberline {2.2.1.18}<em>...</em>}{15}{subsubsection.2.2.1.18}%
-\contentsline {subsubsection}{\numberline {2.2.1.19}<i>...</i>}{15}{subsubsection.2.2.1.19}%
-\contentsline {subsubsection}{\numberline {2.2.1.20}<table>...</table>}{15}{subsubsection.2.2.1.20}%
-\contentsline {subsubsection}{\numberline {2.2.1.21}<tr>...</tr>}{16}{subsubsection.2.2.1.21}%
-\contentsline {subsubsection}{\numberline {2.2.1.22}<th>...</th> and <td>...</td>}{16}{subsubsection.2.2.1.22}%
-\contentsline {subsubsection}{\numberline {2.2.1.23}<form>...</form>}{17}{subsubsection.2.2.1.23}%
-\contentsline {subsubsection}{\numberline {2.2.1.24}<input />}{17}{subsubsection.2.2.1.24}%
-\contentsline {subsubsection}{\numberline {2.2.1.25}<textarea>...</textarea>}{18}{subsubsection.2.2.1.25}%
-\contentsline {subsubsection}{\numberline {2.2.1.26}<button>...</button>}{19}{subsubsection.2.2.1.26}%
-\contentsline {subsubsection}{\numberline {2.2.1.27}<label>...</label>}{19}{subsubsection.2.2.1.27}%
-\contentsline {subsubsection}{\numberline {2.2.1.28}<select>...</select>}{19}{subsubsection.2.2.1.28}%
-\contentsline {chapter}{\numberline {3}Version Control}{20}{chapter.3}%
-\contentsline {chapter}{\numberline {4}NextJS}{21}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Mobile Applications Development}{22}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Cloud Computing}{23}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Artificial Intelligence}{24}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Internet of Things and Augmented Reality}{25}{chapter.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}<section>...</section>}{12}{subsubsection.2.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.9}<span>...</span>}{12}{subsubsection.2.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.2.1.10}<br />}{12}{subsubsection.2.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.2.1.11}<hr />}{13}{subsubsection.2.2.1.11}%
+\contentsline {subsubsection}{\numberline {2.2.1.12}<img />}{13}{subsubsection.2.2.1.12}%
+\contentsline {subsubsection}{\numberline {2.2.1.13}<a>...</a>}{13}{subsubsection.2.2.1.13}%
+\contentsline {subsubsection}{\numberline {2.2.1.14}<ul>...</ul>}{13}{subsubsection.2.2.1.14}%
+\contentsline {subsubsection}{\numberline {2.2.1.15}<ol>...</ol>}{14}{subsubsection.2.2.1.15}%
+\contentsline {subsubsection}{\numberline {2.2.1.16}<li>...</li>}{14}{subsubsection.2.2.1.16}%
+\contentsline {subsubsection}{\numberline {2.2.1.17}<strong>...</strong>}{15}{subsubsection.2.2.1.17}%
+\contentsline {subsubsection}{\numberline {2.2.1.18}<b>...</b>}{15}{subsubsection.2.2.1.18}%
+\contentsline {subsubsection}{\numberline {2.2.1.19}<em>...</em>}{15}{subsubsection.2.2.1.19}%
+\contentsline {subsubsection}{\numberline {2.2.1.20}<i>...</i>}{15}{subsubsection.2.2.1.20}%
+\contentsline {subsubsection}{\numberline {2.2.1.21}<table>...</table>}{16}{subsubsection.2.2.1.21}%
+\contentsline {subsubsection}{\numberline {2.2.1.22}<tr>...</tr>}{16}{subsubsection.2.2.1.22}%
+\contentsline {subsubsection}{\numberline {2.2.1.23}<th>...</th> and <td>...</td>}{17}{subsubsection.2.2.1.23}%
+\contentsline {subsubsection}{\numberline {2.2.1.24}<form>...</form>}{17}{subsubsection.2.2.1.24}%
+\contentsline {subsubsection}{\numberline {2.2.1.25}<input />}{17}{subsubsection.2.2.1.25}%
+\contentsline {subsubsection}{\numberline {2.2.1.26}<textarea>...</textarea>}{19}{subsubsection.2.2.1.26}%
+\contentsline {subsubsection}{\numberline {2.2.1.27}<button>...</button>}{19}{subsubsection.2.2.1.27}%
+\contentsline {subsubsection}{\numberline {2.2.1.28}<label>...</label>}{19}{subsubsection.2.2.1.28}%
+\contentsline {subsubsection}{\numberline {2.2.1.29}<select>...</select>}{20}{subsubsection.2.2.1.29}%
+\contentsline {subsubsection}{\numberline {2.2.1.30}<iframe>...</iframe>}{20}{subsubsection.2.2.1.30}%
+\contentsline {chapter}{\numberline {3}Version Control}{21}{chapter.3}%
+\contentsline {chapter}{\numberline {4}NextJS}{22}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Mobile Applications Development}{23}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Cloud Computing}{24}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Artificial Intelligence}{25}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Internet of Things and Augmented Reality}{26}{chapter.8}%
