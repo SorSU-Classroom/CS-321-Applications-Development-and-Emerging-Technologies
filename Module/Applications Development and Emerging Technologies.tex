@@ -1949,9 +1949,9 @@ content.
 
 \begin{lstlisting}[language=HTML, caption={Width and Height HTML}, label={lst:width-height-html}]
 <div class="container">
-  <div class="item1">Item 1</div>
-  <div class="item2">Item 2</div>
-  <div class="item3">Item 3</div>
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
 </div>
 \end{lstlisting}
 
@@ -1994,9 +1994,9 @@ percentages, to create rounded corners.
 
 \begin{lstlisting}[language=HTML, caption={Radius HTML}, label={lst:radius-html}]
 <div class="container">
-  <div class="item1">Item 1</div>
-  <div class="item2">Item 2</div>
-  <div class="item3">Item 3</div>
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
 </div>
 \end{lstlisting}
 
@@ -2038,9 +2038,9 @@ different shadow effects.
 
 \begin{lstlisting}[language=HTML, caption={Box Shadow HTML}, label={lst:box-shadow-html}]
 <div class="container">
-  <div class="item1">Item 1</div>
-  <div class="item2">Item 2</div>
-  <div class="item3">Item 3</div>
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
 </div>
 \end{lstlisting}
 
@@ -2082,9 +2082,9 @@ opacity can be set to a value between 0 and 1, where 0 is fully transparent and
 
 \begin{lstlisting}[language=HTML, caption={Opacity HTML}, label={lst:opacity-html}]
 <div class="container">
-  <div class="item1">Item 1</div>
-  <div class="item2">Item 2</div>
-  <div class="item3">Item 3</div>
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
 </div>
 \end{lstlisting}
 
@@ -2122,99 +2122,993 @@ The higher the value, the more opaque the element.
 
 \paragraph{Text Align}
 
+The \textbf{text-align} property is used to set the alignment of the text
+within an element. The text can be aligned to the left, right, center, or
+justified.
+
+\begin{lstlisting}[language=HTML, caption={Text Align HTML}, label={lst:text-align-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Text Align CSS}, label={lst:text-align-css}]
+p {
+  text-align: center;
+}
+\end{lstlisting}
+
+Code \ref{lst:text-align-html} and \ref{lst:text-align-css} show an example of
+the \textbf{text-align} property. In this example, the text in the \textbf{<p>}
+element is aligned to the center.
+
 \paragraph{Text Decoration}
+
+The \textbf{text-decoration} property is used to set the decoration of the text
+within an element. The text can be \textbf{none}, \textbf{underline},
+\textbf{overline}, \textbf{line-through}, or a combination of these values.
+
+\begin{lstlisting}[language=HTML, caption={Text Decoration HTML}, label={lst:text-decoration-html}]
+<p>This is a <span class="underline">paragraph</span>.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Text Decoration CSS}, label={lst:text-decoration-css}]
+.underline {
+  text-decoration: underline;
+}
+\end{lstlisting}
+
+Code \ref{lst:text-decoration-html} and \ref{lst:text-decoration-css} show an
+example of the \textbf{text-decoration} property. In this example, the text in
+the \textbf{<span>} element with the class \textbf{underline} is underlined.
 
 \paragraph{Text Transform}
 
+The \textbf{text-transform} property is used to set the transformation of the
+text within an element. The text can be transformed to uppercase, lowercase,
+capitalize, or none.
+
+\begin{lstlisting}[language=HTML, caption={Text Transform HTML}, label={lst:text-transform-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Text Transform CSS}, label={lst:text-transform-css}]
+p {
+  text-transform: uppercase;
+}
+\end{lstlisting}
+
+Code \ref{lst:text-transform-html} and \ref{lst:text-transform-css} show an
+example of the \textbf{text-transform} property. In this example, the text in
+the \textbf{<p>} element is transformed to uppercase.
+
 \paragraph{Line Height}
+
+The \textbf{line-height} property is used to set the height of a line of text
+within an element. The line height can be set to a specific size, such as
+pixels or percentages, to create different line heights.
+
+\begin{lstlisting}[language=HTML, caption={Line Height HTML}, label={lst:line-height-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Line Height CSS}, label={lst:line-height-css}]
+p {
+  line-height: 1.5;
+}
+\end{lstlisting}
+
+Code \ref{lst:line-height-html} and \ref{lst:line-height-css} show an example
+of the \textbf{line-height} property. In this example, the line height of the
+text in the \textbf{<p>} element is set to 1.5 times the font size.
 
 \paragraph{Font Family}
 
+The \textbf{font-family} property is used to set the font family of the text
+within an element. The font family can be set to a specific font name or a list
+of font names to use as fallbacks.
+
+\begin{lstlisting}[language=HTML, caption={Font Family HTML}, label={lst:font-family-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Font Family CSS}, label={lst:font-family-css}]
+p {
+  font-family: Arial, sans-serif;
+}
+\end{lstlisting}
+
+Code \ref{lst:font-family-html} and \ref{lst:font-family-css} show an example
+of the \textbf{font-family} property. In this example, the font family of the
+text in the \textbf{<p>} element is set to Arial, with a fallback to the
+sans-serif font family.
+
 \paragraph{Font Size}
+
+The \textbf{font-size} property is used to set the font size of the text within
+an element. The font size can be set to a specific size, such as pixels or
+percentages, to create different font sizes.
+
+\begin{lstlisting}[language=HTML, caption={Font Size HTML}, label={lst:font-size-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Font Size CSS}, label={lst:font-size-css}]
+p {
+  font-size: 16px;
+}
+\end{lstlisting}
+
+Code \ref{lst:font-size-html} and \ref{lst:font-size-css} show an example of
+the \textbf{font-size} property. In this example, the font size of the text in
+the \textbf{<p>} element is set to 16 pixels.
 
 \paragraph{Font Weight}
 
+The \textbf{font-weight} property is used to set the weight of the text within
+an element. The font weight can be set to a specific value, such as normal,
+bold, or a numeric value.
+
+\begin{lstlisting}[language=HTML, caption={Font Weight HTML}, label={lst:font-weight-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Font Weight CSS}, label={lst:font-weight-css}]
+p {
+  font-weight: bold;
+}
+\end{lstlisting}
+
+Code \ref{lst:font-weight-html} and \ref{lst:font-weight-css} show an example
+of the \textbf{font-weight} property. In this example, the font weight of the
+text in the \textbf{<p>} element is set to bold.
+
 \paragraph{Font Style}
+
+The \textbf{font-style} property is used to set the style of the text within an
+element. The font style can be set to normal, italic, or oblique.
+
+\begin{lstlisting}[language=HTML, caption={Font Style HTML}, label={lst:font-style-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Font Style CSS}, label={lst:font-style-css}]
+p {
+  font-style: italic;
+}
+\end{lstlisting}
+
+Code \ref{lst:font-style-html} and \ref{lst:font-style-css} show an example of
+the \textbf{font-style} property. In this example, the font style of the text
+in the \textbf{<p>} element is set to italic.
 
 \subsubsection{Layout}
 
 \paragraph{Display}
 
+The \textbf{display} property is used to set the display behavior of an
+element. The display property can be set to \textbf{block}, \textbf{inline},
+\textbf{inline-block}, \textbf{flex}, \textbf{grid}, or \textbf{none}.
+
+\begin{lstlisting}[language=HTML, caption={Display HTML}, label={lst:display-html}]
+<div class="container1">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<div class="container2">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<div class="container3">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Display CSS}, label={lst:display-css}]
+.container1 {
+  display: block;
+}
+
+.container2 {
+  display: inline;
+}
+
+.container3 {
+  display: flex;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+\end{lstlisting}
+
+Code \ref{lst:display-html} and \ref{lst:display-css} show an example of the
+\textbf{display} property. In this example, the display property of the
+\textbf{<div>} elements is set to block, inline, and flex, creating different
+display behaviors for the elements.
+
 \paragraph{Flexbox}
 
+The \textbf{flex} property is used to set the flex behavior of an element. The
+flex property can be set to \textbf{flex-grow}, \textbf{flex-shrink},
+\textbf{flex-basis}, or a combination of these values.
+
+\begin{lstlisting}[language=HTML, caption={Flexbox HTML}, label={lst:flexbox-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Flexbox CSS}, label={lst:flexbox-css}]
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.item1 {
+  flex: 2;
+}
+
+.item2 {
+  flex: 1;
+}
+
+.item3 {
+  flex: 1;
+}
+\end{lstlisting}
+
+Code \ref{lst:flexbox-html} and \ref{lst:flexbox-css} show an example of the
+\textbf{flex} property. In this example, the flex property of the
+\textbf{<div>} elements is set to 1, 2, and 1, creating different flex
+behaviors for the elements.
+
 \paragraph{Grid}
+
+The \textbf{grid} property is used to set the grid behavior of an element. The
+grid property can be set to \textbf{grid-template-columns},
+\textbf{grid-template-rows}, \textbf{grid-gap}, or a combination of these
+values.
+
+\begin{lstlisting}[language=HTML, caption={Grid HTML}, label={lst:grid-html}]
+<div class="container1">
+  <div class="item1">Item 1</div>
+  <div class="item2">Item 2</div>
+  <div class="item3">Item 3</div>
+</div>
+
+<div class="container2">
+  <div class="item1">Item 1</div>
+  <div class="item2">Item 2</div>
+  <div class="item3">Item 3</div>
+</div>
+
+<div class="container3">
+  <div class="item1">Item 1</div>
+  <div class="item2">Item 2</div>
+  <div class="item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Grid CSS}, label={lst:grid-css}]
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 10px;
+} 
+\end{lstlisting}
+
+Code \ref{lst:grid-html} and \ref{lst:grid-css} show an example of the
+\textbf{grid} property. In this example, the grid property of the
+\textbf{<div>} elements is set to 1fr, 2fr, and 1fr, creating different grid
+behaviors for the elements.
 
 \subsubsection{Positioning}
 
 \paragraph{Static}
 
+The \textbf{position} property is used to set the positioning behavior of an
+element. The position property can be set to \textbf{static},
+\textbf{relative}, \textbf{absolute}, \textbf{fixed}, or \textbf{sticky}. The
+static value is the default value and does not affect the position of the
+element.
+
+\begin{lstlisting}[language=HTML, caption={Static HTML}, label={lst:static-html}]
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Static CSS}, label={lst:static-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+  position: static;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+\end{lstlisting}
+
+Code \ref{lst:static-html} and \ref{lst:static-css} show an example of the
+\textbf{position} property. In this example, the position property of the
+\textbf{<div>} element is set to static, which is the default value.
+
 \paragraph{Relative}
+
+A \textbf{relative} position is used to set the position of an element relative
+to its normal position. The element is positioned based on its normal position
+in the document flow, and then offset by the specified values.
+
+\begin{lstlisting}[language=HTML, caption={Relative HTML}, label={lst:relative-html}]
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Relative CSS}, label={lst:relative-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: lightgreen;
+}
+
+.item {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+\end{lstlisting}
+
+Code \ref{lst:relative-html} and \ref{lst:relative-css} show an example of the
+\textbf{position} property with a value of relative. In this example, the
+position of the \textbf{<div>} element is set to relative, and the top and left
+properties are used to offset the element by 10 pixels.
 
 \paragraph{Absolute}
 
+An \textbf{absolute} position is used to set the position of an element
+relative to its nearest positioned ancestor. If no ancestor is positioned, the
+element is positioned relative to the document body.
+
+\begin{lstlisting}[language=HTML, caption={Absolute HTML}, label={lst:absolute-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Absolute CSS}, label={lst:absolute-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: lightgreen;
+  width: 200px;
+  height: 200px;
+}
+
+.item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.item1 {
+  top: 0;
+  left: 0;
+  background-color: lightcoral;
+}
+
+.item2 {
+  top: 0;
+  right: 0;
+  background-color: lightblue;
+}
+
+.item3 {
+  bottom: 0;
+  left: 0;
+  background-color: yellow;
+}
+\end{lstlisting}
+
+Code \ref{lst:absolute-html} and \ref{lst:absolute-css} show an example of the
+\textbf{position} property with a value of absolute. In this example, the
+position of the \textbf{<div>} elements is set to absolute, and the top, right,
+bottom, and left properties are used to position the elements in the container.
+
 \paragraph{Fixed}
 
+A \textbf{fixed} position is used to set the position of an element relative to
+the viewport. The element remains fixed in the same position on the screen even
+when the page is scrolled.
+
+\begin{lstlisting}[language=HTML, caption={Fixed HTML}, label={lst:fixed-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2 - Fixed</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Fixed CSS}, label={lst:fixed-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: lightgreen;
+  height: 200vh;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+}
+
+.item1 {
+  background-color: lightcoral;
+}
+
+.item2 {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: lightblue;
+}
+
+.item3 {
+  background-color: yellow;
+}
+\end{lstlisting}
+
+Code \ref{lst:fixed-html} and \ref{lst:fixed-css} show an example of the
+\textbf{position} property with a value of fixed. In this example, the position
+of the \textbf{<div>} element is set to fixed, and the top and right properties
+are used to position the element on the screen.
+
 \paragraph{Sticky}
+
+A \textbf{sticky} position is used to set the position of an element relative
+to its containing block. The element remains in the normal flow until it
+reaches a specified scroll position, at which point it becomes fixed.
+
+\begin{lstlisting}[language=HTML, caption={Sticky HTML}, label={lst:sticky-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2 - Sticky</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Sticky CSS}, label={lst:sticky-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: lightgreen;
+  height: 200vh;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+}
+
+.item1 {
+  background-color: lightcoral;
+}
+
+.item2 {
+  position: sticky;
+  top: 0;
+  background-color: lightblue;
+}
+
+.item3 {
+  background-color: yellow;
+}
+\end{lstlisting}
+
+Code \ref{lst:sticky-html} and \ref{lst:sticky-css} show an example of the
+\textbf{position} property with a value of sticky. In this example, the
+position of the \textbf{<div>} element is set to sticky, and the top property
+is used to position the element on the screen.
 
 \subsubsection{Transforms}
 
 \paragraph{Scale}
 
+The \textbf{scale} property is used to scale an element. The scale value can be
+set to a specific size, such as 1.5 or 0.5, to scale the element up or down.
+
+\begin{lstlisting}[language=HTML, caption={Scale HTML}, label={lst:scale-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Scale CSS}, label={lst:scale-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.item1 {
+  transform: scale(1.5);
+}
+
+.item2 {
+  transform: scale(0.5);
+}
+
+.item3 {
+  transform: scale(2);
+}
+\end{lstlisting}
+
+Code \ref{lst:scale-html} and \ref{lst:scale-css} show an example of the
+\textbf{transform} property with a value of scale. In this example, the scale
+value of the \textbf{<div>} elements is set to 1.5, 0.5, and 2, creating
+different scale effects for the elements.
+
 \paragraph{Rotate}
+
+The \textbf{rotate} property is used to rotate an element. The rotate value can
+be set to a specific angle, such as 45 degrees or 90 degrees, to rotate the
+element.
+
+\begin{lstlisting}[language=HTML, caption={Rotate HTML}, label={lst:rotate-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Rotate CSS}, label={lst:rotate-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.item1 {
+  transform: rotate(45deg);
+}
+
+.item2 {
+  transform: rotate(90deg);
+}
+
+.item3 {
+  transform: rotate(180deg);
+}
+\end{lstlisting}
+
+Code \ref{lst:rotate-html} and \ref{lst:rotate-css} show an example of the
+\textbf{transform} property with a value of rotate. In this example, the rotate
+value of the \textbf{<div>} elements is set to 45 degrees, 90 degrees, and 180
+degrees, creating different rotate effects for the elements.
 
 \paragraph{Skew}
 
+The \textbf{skew} property is used to skew an element. The skew value can be
+set to a specific angle, such as 30 degrees or -30 degrees, to skew the
+element.
+
+\begin{lstlisting}[language=HTML, caption={Skew HTML}, label={lst:skew-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Skew CSS}, label={lst:skew-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.item1 {
+  transform: skew(30deg);
+}
+
+.item2 {
+  transform: skew(-30deg);
+}
+
+.item3 {
+  transform: skew(45deg);
+}
+\end{lstlisting}
+
+Code \ref{lst:skew-html} and \ref{lst:skew-css} show an example of the
+\textbf{transform} property with a value of skew. In this example, the skew
+value of the \textbf{<div>} elements is set to 30 degrees, -30 degrees, and 45
+degrees, creating different skew effects for the elements.
+
 \paragraph{Translate}
 
+The \textbf{translate} property is used to move an element. The translate value
+can be set to a specific distance, such as 10 pixels or -10 pixels, to move the
+element.
+
+\begin{lstlisting}[language=HTML, caption={Translate HTML}, label={lst:translate-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+
+\begin{lstlisting}[language=HTML, caption={Translate CSS}, label={lst:translate-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.item1 {
+  transform: translate(10px, 10px);
+}
+
+.item2 {
+  transform: translate(-10px, -10px);
+}
+
+.item3 {
+  transform: translate(20px, 20px);
+}
+\end{lstlisting}
+
+Code \ref{lst:translate-html} and \ref{lst:translate-css} show an example of
+the \textbf{transform} property with a value of translate. In this example, the
+translate value of the \textbf{<div>} elements is set to 10 pixels, -10 pixels,
+and 20 pixels, creating different translate effects for the elements.
+
 \paragraph{Origin}
+
+The \textbf{transform-origin} property is used to set the origin of the
+transformed element. The origin value can be set to a specific position, such
+as top left, center, or bottom right, to change the origin of the
+transformation.
 
 \subsubsection{Interactivity}
 
 \paragraph{Hover}
 
+The \textbf{hover} property is used to change the style of an element when the
+mouse hovers over it. The hover property can be used to change the color,
+background color, or other styles of the element.
+
+\begin{lstlisting}[language=HTML, caption={Hover HTML}, label={lst:hover-html}]
+<button>Hover Over Me</button>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Hover CSS}, label={lst:hover-css}]
+button {
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+\end{lstlisting}
+
+Code \ref{lst:hover-html} and \ref{lst:hover-css} show an example of the
+\textbf{hover} property. In this example, the background color of the
+\textbf{<button>} element is changed to lightcoral when the mouse hovers over
+it.
+
 \paragraph{Focus}
+
+The \textbf{focus} property is used to change the style of an element when it
+receives focus. The focus property can be used to change the color, background
+color, or other styles of the element.
+
+\begin{lstlisting}[language=HTML, caption={Focus HTML}, label={lst:focus-html}]
+<input type="text" placeholder="Enter your name">
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Focus CSS}, label={lst:focus-css}]
+input {
+  padding: 10px;
+  border: 1px solid lightblue;
+}
+
+input:focus {
+  border-color: lightcoral;
+}
+\end{lstlisting}
+
+Code \ref{lst:focus-html} and \ref{lst:focus-css} show an example of the
+\textbf{focus} property. In this example, the border color of the
+\textbf{<input>} element is changed to lightcoral when it receives focus.
 
 \paragraph{Active}
 
+The \textbf{active} property is used to change the style of an element when it
+is activated. The active property can be used to change the color, background
+color, or other styles of the element.
+
+\begin{lstlisting}[language=HTML, caption={Active HTML}, label={lst:active-html}]
+<button>Click Me</button>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Active CSS}, label={lst:active-css}]
+button {
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+button:active {
+  background-color: lightcoral;
+}
+\end{lstlisting}
+
+Code \ref{lst:active-html} and \ref{lst:active-css} show an example of the
+\textbf{active} property. In this example, the background color of the
+\textbf{<button>} element is changed to lightcoral when it is activated.
+
 \paragraph{Transition}
+
+The \textbf{transition} property is used to create smooth transitions between
+different styles of an element. The transition property can be set to a
+specific duration, such as 0.5 seconds or 1 second, to create a smooth
+transition effect.
+
+\begin{lstlisting}[language=HTML, caption={Transition HTML}, label={lst:transition-html}]
+<button>Hover Over Me</button>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Transition CSS}, label={lst:transition-css}]
+button {
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: lightcoral;
+}
+\end{lstlisting}
+
+Code \ref{lst:transition-html} and \ref{lst:transition-css} show an example of
+the \textbf{transition} property. In this example, the background color of the
+\textbf{<button>} element is changed to lightcoral and the scale is increased
+when the mouse hovers over it, creating a smooth transition effect.
 
 \paragraph{Animation}
 
-\subsubsection{Filters}
+The \textbf{animation} property is used to create animations for an element.
+The animation property can be set to a specific duration, timing function,
+delay, and iteration count to create different animation effects.
 
-\paragraph{Blur}
+\begin{lstlisting}[language=HTML, caption={Animation HTML}, label={lst:animation-html}]
+<div class="container">
+  <div class="item">Item 1</div>
+</div>
+\end{lstlisting}
 
-\paragraph{Brightness}
+\begin{lstlisting}[language=HTML, caption={Animation CSS}, label={lst:animation-css}]
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-\paragraph{Contrast}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  animation: spin 2s linear infinite;
+}
 
-\paragraph{Drop Shadow}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+\end{lstlisting}
 
-\paragraph{Grayscale}
+Code \ref{lst:animation-html} and \ref{lst:animation-css} show an example of
+the \textbf{animation} property. In this example, the \textbf{<div>} element is
+rotated 360 degrees over a duration of 2 seconds, creating a spinning
+animation.
 
-\paragraph{Hue Rotate}
+Read more about CSS animations from the following sources:
 
-\paragraph{Invert}
-
-\paragraph{Opacity}
-
-\paragraph{Saturate}
-
-\paragraph{Sepia}
+\begin{itemize}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations}{MDN Web Docs CSS Animations}
+  \item \href{https://www.w3schools.com/css/css3_animations.asp}{W3Schools CSS Animations}
+  \item \href{https://css-tricks.com/almanac/properties/a/animation/}{CSS-Tricks Animation}
+\end{itemize}
 
 \subsubsection{Responsive Design}
 
 \paragraph{Media Queries}
 
-\paragraph{Viewport}
+The \textbf{@media} rule is used to apply different styles for different media
+types, such as screen sizes, devices, or orientations. Media queries can be
+used to create responsive designs that adapt to different screen sizes.
+
+\begin{lstlisting}[language=HTML, caption={Media Queries HTML}, label={lst:media-queries-html}]
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Media Queries CSS}, label={lst:media-queries-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .item {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .item {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .item {
+    width: 10px;
+  }
+}
+\end{lstlisting}
+
+Code \ref{lst:media-queries-html} and \ref{lst:media-queries-css} show an
+example of media queries. In this example, the flex direction of the
+\textbf{<div>} elements is changed to row when the screen width is less than
+600 pixels, and the width of the elements is adjusted for different screen
+sizes.
 
 \paragraph{Responsive Images}
+
+The \textbf{max-width} property is used to make images responsive by setting
+the maximum width to 100\% of the container. This allows the image to scale
+down proportionally to fit the container while maintaining its aspect ratio.
+
+\begin{lstlisting}[language=HTML, caption={Responsive Images HTML}, label={lst:responsive-images-html}]
+<div class="container">
+  <img src="https://picsum.photos/400" alt="Placeholder Image" />
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Responsive Images CSS}, label={lst:responsive-images-css}]
+.container {
+  max-width: 600px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+\end{lstlisting}
+
+Code \ref{lst:responsive-images-html} and \ref{lst:responsive-images-css} show
+an example of responsive images. In this example, the maximum width of the
+image is set to 100\% of the container, allowing the image to scale down
+proportionally to fit the container.
 
 \subsection{Frameworks}
 
 \subsubsection{Bootstrap}
 
+\textbf{Bootstrap} is a popular CSS framework that provides a set of
+pre-designed components and styles to create responsive web designs quickly.
+Bootstrap includes a grid system, typography, forms, buttons, navigation bars,
+and other components that can be customized to create modern web designs.
+
+Read more about Bootstrap from its official documentation:
+
+\href{https://getbootstrap.com/docs/5.1/getting-started/introduction/}{Bootstrap Documentation}
+
 \subsubsection{Tailwind CSS}
+
+\textbf{Tailwind CSS} is a utility-first CSS framework that provides a set of
+utility classes to style web designs. Tailwind CSS allows you to create custom
+designs by applying utility classes directly in the HTML markup, making it
+easier to build responsive and customizable web designs.
+
+Read more about Tailwind CSS from its official documentation:
+
+\href{https://tailwindcss.com/docs}{Tailwind CSS Documentation}
 
 \subsection{More about CSS}
 

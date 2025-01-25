@@ -79,3 +79,56 @@
 \contentsline {lstlisting}{\numberline {2.79}{\ignorespaces Box Shadow CSS}}{36}{lstlisting.2.79}%
 \contentsline {lstlisting}{\numberline {2.80}{\ignorespaces Opacity HTML}}{37}{lstlisting.2.80}%
 \contentsline {lstlisting}{\numberline {2.81}{\ignorespaces Opacity CSS}}{37}{lstlisting.2.81}%
+\contentsline {lstlisting}{\numberline {2.82}{\ignorespaces Text Align HTML}}{38}{lstlisting.2.82}%
+\contentsline {lstlisting}{\numberline {2.83}{\ignorespaces Text Align CSS}}{38}{lstlisting.2.83}%
+\contentsline {lstlisting}{\numberline {2.84}{\ignorespaces Text Decoration HTML}}{38}{lstlisting.2.84}%
+\contentsline {lstlisting}{\numberline {2.85}{\ignorespaces Text Decoration CSS}}{38}{lstlisting.2.85}%
+\contentsline {lstlisting}{\numberline {2.86}{\ignorespaces Text Transform HTML}}{39}{lstlisting.2.86}%
+\contentsline {lstlisting}{\numberline {2.87}{\ignorespaces Text Transform CSS}}{39}{lstlisting.2.87}%
+\contentsline {lstlisting}{\numberline {2.88}{\ignorespaces Line Height HTML}}{39}{lstlisting.2.88}%
+\contentsline {lstlisting}{\numberline {2.89}{\ignorespaces Line Height CSS}}{39}{lstlisting.2.89}%
+\contentsline {lstlisting}{\numberline {2.90}{\ignorespaces Font Family HTML}}{39}{lstlisting.2.90}%
+\contentsline {lstlisting}{\numberline {2.91}{\ignorespaces Font Family CSS}}{39}{lstlisting.2.91}%
+\contentsline {lstlisting}{\numberline {2.92}{\ignorespaces Font Size HTML}}{40}{lstlisting.2.92}%
+\contentsline {lstlisting}{\numberline {2.93}{\ignorespaces Font Size CSS}}{40}{lstlisting.2.93}%
+\contentsline {lstlisting}{\numberline {2.94}{\ignorespaces Font Weight HTML}}{40}{lstlisting.2.94}%
+\contentsline {lstlisting}{\numberline {2.95}{\ignorespaces Font Weight CSS}}{40}{lstlisting.2.95}%
+\contentsline {lstlisting}{\numberline {2.96}{\ignorespaces Font Style HTML}}{41}{lstlisting.2.96}%
+\contentsline {lstlisting}{\numberline {2.97}{\ignorespaces Font Style CSS}}{41}{lstlisting.2.97}%
+\contentsline {lstlisting}{\numberline {2.98}{\ignorespaces Display HTML}}{41}{lstlisting.2.98}%
+\contentsline {lstlisting}{\numberline {2.99}{\ignorespaces Display CSS}}{41}{lstlisting.2.99}%
+\contentsline {lstlisting}{\numberline {2.100}{\ignorespaces Flexbox HTML}}{42}{lstlisting.2.100}%
+\contentsline {lstlisting}{\numberline {2.101}{\ignorespaces Flexbox CSS}}{42}{lstlisting.2.101}%
+\contentsline {lstlisting}{\numberline {2.102}{\ignorespaces Grid HTML}}{43}{lstlisting.2.102}%
+\contentsline {lstlisting}{\numberline {2.103}{\ignorespaces Grid CSS}}{43}{lstlisting.2.103}%
+\contentsline {lstlisting}{\numberline {2.104}{\ignorespaces Static HTML}}{44}{lstlisting.2.104}%
+\contentsline {lstlisting}{\numberline {2.105}{\ignorespaces Static CSS}}{44}{lstlisting.2.105}%
+\contentsline {lstlisting}{\numberline {2.106}{\ignorespaces Relative HTML}}{45}{lstlisting.2.106}%
+\contentsline {lstlisting}{\numberline {2.107}{\ignorespaces Relative CSS}}{45}{lstlisting.2.107}%
+\contentsline {lstlisting}{\numberline {2.108}{\ignorespaces Absolute HTML}}{45}{lstlisting.2.108}%
+\contentsline {lstlisting}{\numberline {2.109}{\ignorespaces Absolute CSS}}{45}{lstlisting.2.109}%
+\contentsline {lstlisting}{\numberline {2.110}{\ignorespaces Fixed HTML}}{46}{lstlisting.2.110}%
+\contentsline {lstlisting}{\numberline {2.111}{\ignorespaces Fixed CSS}}{46}{lstlisting.2.111}%
+\contentsline {lstlisting}{\numberline {2.112}{\ignorespaces Sticky HTML}}{47}{lstlisting.2.112}%
+\contentsline {lstlisting}{\numberline {2.113}{\ignorespaces Sticky CSS}}{47}{lstlisting.2.113}%
+\contentsline {lstlisting}{\numberline {2.114}{\ignorespaces Scale HTML}}{48}{lstlisting.2.114}%
+\contentsline {lstlisting}{\numberline {2.115}{\ignorespaces Scale CSS}}{48}{lstlisting.2.115}%
+\contentsline {lstlisting}{\numberline {2.116}{\ignorespaces Rotate HTML}}{49}{lstlisting.2.116}%
+\contentsline {lstlisting}{\numberline {2.117}{\ignorespaces Rotate CSS}}{49}{lstlisting.2.117}%
+\contentsline {lstlisting}{\numberline {2.118}{\ignorespaces Skew HTML}}{50}{lstlisting.2.118}%
+\contentsline {lstlisting}{\numberline {2.119}{\ignorespaces Skew CSS}}{50}{lstlisting.2.119}%
+\contentsline {lstlisting}{\numberline {2.120}{\ignorespaces Translate HTML}}{51}{lstlisting.2.120}%
+\contentsline {lstlisting}{\numberline {2.121}{\ignorespaces Hover HTML}}{52}{lstlisting.2.121}%
+\contentsline {lstlisting}{\numberline {2.122}{\ignorespaces Hover CSS}}{52}{lstlisting.2.122}%
+\contentsline {lstlisting}{\numberline {2.123}{\ignorespaces Focus HTML}}{52}{lstlisting.2.123}%
+\contentsline {lstlisting}{\numberline {2.124}{\ignorespaces Focus CSS}}{52}{lstlisting.2.124}%
+\contentsline {lstlisting}{\numberline {2.125}{\ignorespaces Active HTML}}{53}{lstlisting.2.125}%
+\contentsline {lstlisting}{\numberline {2.126}{\ignorespaces Active CSS}}{53}{lstlisting.2.126}%
+\contentsline {lstlisting}{\numberline {2.127}{\ignorespaces Transition HTML}}{53}{lstlisting.2.127}%
+\contentsline {lstlisting}{\numberline {2.128}{\ignorespaces Transition CSS}}{53}{lstlisting.2.128}%
+\contentsline {lstlisting}{\numberline {2.129}{\ignorespaces Animation HTML}}{54}{lstlisting.2.129}%
+\contentsline {lstlisting}{\numberline {2.130}{\ignorespaces Animation CSS}}{54}{lstlisting.2.130}%
+\contentsline {lstlisting}{\numberline {2.131}{\ignorespaces Media Queries HTML}}{55}{lstlisting.2.131}%
+\contentsline {lstlisting}{\numberline {2.132}{\ignorespaces Media Queries CSS}}{55}{lstlisting.2.132}%
+\contentsline {lstlisting}{\numberline {2.133}{\ignorespaces Responsive Images HTML}}{56}{lstlisting.2.133}%
+\contentsline {lstlisting}{\numberline {2.134}{\ignorespaces Responsive Images CSS}}{56}{lstlisting.2.134}%

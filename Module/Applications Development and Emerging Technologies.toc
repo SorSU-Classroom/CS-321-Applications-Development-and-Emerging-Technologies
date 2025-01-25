@@ -1,7 +1,7 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Contents}{ii}{chapter*.1}%
-\contentsline {chapter}{List of Figures}{vi}{chapter*.2}%
-\contentsline {chapter}{List of Tables}{vii}{chapter*.3}%
+\contentsline {chapter}{List of Figures}{v}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{vi}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction to Applications Development and Emerging Technologies}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Application}{2}{subsection.1.1.1}%
@@ -87,59 +87,47 @@
 \contentsline {paragraph}{\numberline {2.3.2.2.6}Radius}{35}{paragraph.2.3.2.2.6}%
 \contentsline {paragraph}{\numberline {2.3.2.2.7}Box Shadow}{36}{paragraph.2.3.2.2.7}%
 \contentsline {paragraph}{\numberline {2.3.2.2.8}Opacity}{37}{paragraph.2.3.2.2.8}%
-\contentsline {subsubsection}{\numberline {2.3.2.3}Text}{39}{subsubsection.2.3.2.3}%
-\contentsline {paragraph}{\numberline {2.3.2.3.1}Text Align}{39}{paragraph.2.3.2.3.1}%
-\contentsline {paragraph}{\numberline {2.3.2.3.2}Text Decoration}{39}{paragraph.2.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Text}{38}{subsubsection.2.3.2.3}%
+\contentsline {paragraph}{\numberline {2.3.2.3.1}Text Align}{38}{paragraph.2.3.2.3.1}%
+\contentsline {paragraph}{\numberline {2.3.2.3.2}Text Decoration}{38}{paragraph.2.3.2.3.2}%
 \contentsline {paragraph}{\numberline {2.3.2.3.3}Text Transform}{39}{paragraph.2.3.2.3.3}%
 \contentsline {paragraph}{\numberline {2.3.2.3.4}Line Height}{39}{paragraph.2.3.2.3.4}%
 \contentsline {paragraph}{\numberline {2.3.2.3.5}Font Family}{39}{paragraph.2.3.2.3.5}%
-\contentsline {paragraph}{\numberline {2.3.2.3.6}Font Size}{39}{paragraph.2.3.2.3.6}%
-\contentsline {paragraph}{\numberline {2.3.2.3.7}Font Weight}{39}{paragraph.2.3.2.3.7}%
-\contentsline {paragraph}{\numberline {2.3.2.3.8}Font Style}{39}{paragraph.2.3.2.3.8}%
-\contentsline {subsubsection}{\numberline {2.3.2.4}Layout}{39}{subsubsection.2.3.2.4}%
-\contentsline {paragraph}{\numberline {2.3.2.4.1}Display}{39}{paragraph.2.3.2.4.1}%
-\contentsline {paragraph}{\numberline {2.3.2.4.2}Flexbox}{39}{paragraph.2.3.2.4.2}%
-\contentsline {paragraph}{\numberline {2.3.2.4.3}Grid}{39}{paragraph.2.3.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.3.2.5}Positioning}{39}{subsubsection.2.3.2.5}%
-\contentsline {paragraph}{\numberline {2.3.2.5.1}Static}{39}{paragraph.2.3.2.5.1}%
-\contentsline {paragraph}{\numberline {2.3.2.5.2}Relative}{39}{paragraph.2.3.2.5.2}%
-\contentsline {paragraph}{\numberline {2.3.2.5.3}Absolute}{39}{paragraph.2.3.2.5.3}%
-\contentsline {paragraph}{\numberline {2.3.2.5.4}Fixed}{39}{paragraph.2.3.2.5.4}%
-\contentsline {paragraph}{\numberline {2.3.2.5.5}Sticky}{39}{paragraph.2.3.2.5.5}%
-\contentsline {subsubsection}{\numberline {2.3.2.6}Transforms}{39}{subsubsection.2.3.2.6}%
-\contentsline {paragraph}{\numberline {2.3.2.6.1}Scale}{39}{paragraph.2.3.2.6.1}%
-\contentsline {paragraph}{\numberline {2.3.2.6.2}Rotate}{39}{paragraph.2.3.2.6.2}%
-\contentsline {paragraph}{\numberline {2.3.2.6.3}Skew}{39}{paragraph.2.3.2.6.3}%
-\contentsline {paragraph}{\numberline {2.3.2.6.4}Translate}{39}{paragraph.2.3.2.6.4}%
-\contentsline {paragraph}{\numberline {2.3.2.6.5}Origin}{39}{paragraph.2.3.2.6.5}%
-\contentsline {subsubsection}{\numberline {2.3.2.7}Interactivity}{39}{subsubsection.2.3.2.7}%
-\contentsline {paragraph}{\numberline {2.3.2.7.1}Hover}{39}{paragraph.2.3.2.7.1}%
-\contentsline {paragraph}{\numberline {2.3.2.7.2}Focus}{39}{paragraph.2.3.2.7.2}%
-\contentsline {paragraph}{\numberline {2.3.2.7.3}Active}{39}{paragraph.2.3.2.7.3}%
-\contentsline {paragraph}{\numberline {2.3.2.7.4}Transition}{39}{paragraph.2.3.2.7.4}%
-\contentsline {paragraph}{\numberline {2.3.2.7.5}Animation}{39}{paragraph.2.3.2.7.5}%
-\contentsline {subsubsection}{\numberline {2.3.2.8}Filters}{39}{subsubsection.2.3.2.8}%
-\contentsline {paragraph}{\numberline {2.3.2.8.1}Blur}{39}{paragraph.2.3.2.8.1}%
-\contentsline {paragraph}{\numberline {2.3.2.8.2}Brightness}{39}{paragraph.2.3.2.8.2}%
-\contentsline {paragraph}{\numberline {2.3.2.8.3}Contrast}{39}{paragraph.2.3.2.8.3}%
-\contentsline {paragraph}{\numberline {2.3.2.8.4}Drop Shadow}{39}{paragraph.2.3.2.8.4}%
-\contentsline {paragraph}{\numberline {2.3.2.8.5}Grayscale}{39}{paragraph.2.3.2.8.5}%
-\contentsline {paragraph}{\numberline {2.3.2.8.6}Hue Rotate}{39}{paragraph.2.3.2.8.6}%
-\contentsline {paragraph}{\numberline {2.3.2.8.7}Invert}{39}{paragraph.2.3.2.8.7}%
-\contentsline {paragraph}{\numberline {2.3.2.8.8}Opacity}{39}{paragraph.2.3.2.8.8}%
-\contentsline {paragraph}{\numberline {2.3.2.8.9}Saturate}{39}{paragraph.2.3.2.8.9}%
-\contentsline {paragraph}{\numberline {2.3.2.8.10}Sepia}{39}{paragraph.2.3.2.8.10}%
-\contentsline {subsubsection}{\numberline {2.3.2.9}Responsive Design}{39}{subsubsection.2.3.2.9}%
-\contentsline {paragraph}{\numberline {2.3.2.9.1}Media Queries}{39}{paragraph.2.3.2.9.1}%
-\contentsline {paragraph}{\numberline {2.3.2.9.2}Viewport}{39}{paragraph.2.3.2.9.2}%
-\contentsline {paragraph}{\numberline {2.3.2.9.3}Responsive Images}{39}{paragraph.2.3.2.9.3}%
-\contentsline {subsection}{\numberline {2.3.3}Frameworks}{39}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Bootstrap}{39}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Tailwind CSS}{39}{subsubsection.2.3.3.2}%
-\contentsline {subsection}{\numberline {2.3.4}More about CSS}{39}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}Version Control}{41}{chapter.3}%
-\contentsline {chapter}{\numberline {4}NextJS}{42}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Mobile Applications Development}{43}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Cloud Computing}{44}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Artificial Intelligence}{45}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Internet of Things and Augmented Reality}{46}{chapter.8}%
+\contentsline {paragraph}{\numberline {2.3.2.3.6}Font Size}{40}{paragraph.2.3.2.3.6}%
+\contentsline {paragraph}{\numberline {2.3.2.3.7}Font Weight}{40}{paragraph.2.3.2.3.7}%
+\contentsline {paragraph}{\numberline {2.3.2.3.8}Font Style}{41}{paragraph.2.3.2.3.8}%
+\contentsline {subsubsection}{\numberline {2.3.2.4}Layout}{41}{subsubsection.2.3.2.4}%
+\contentsline {paragraph}{\numberline {2.3.2.4.1}Display}{41}{paragraph.2.3.2.4.1}%
+\contentsline {paragraph}{\numberline {2.3.2.4.2}Flexbox}{42}{paragraph.2.3.2.4.2}%
+\contentsline {paragraph}{\numberline {2.3.2.4.3}Grid}{43}{paragraph.2.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.3.2.5}Positioning}{44}{subsubsection.2.3.2.5}%
+\contentsline {paragraph}{\numberline {2.3.2.5.1}Static}{44}{paragraph.2.3.2.5.1}%
+\contentsline {paragraph}{\numberline {2.3.2.5.2}Relative}{44}{paragraph.2.3.2.5.2}%
+\contentsline {paragraph}{\numberline {2.3.2.5.3}Absolute}{45}{paragraph.2.3.2.5.3}%
+\contentsline {paragraph}{\numberline {2.3.2.5.4}Fixed}{46}{paragraph.2.3.2.5.4}%
+\contentsline {paragraph}{\numberline {2.3.2.5.5}Sticky}{47}{paragraph.2.3.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.3.2.6}Transforms}{48}{subsubsection.2.3.2.6}%
+\contentsline {paragraph}{\numberline {2.3.2.6.1}Scale}{48}{paragraph.2.3.2.6.1}%
+\contentsline {paragraph}{\numberline {2.3.2.6.2}Rotate}{49}{paragraph.2.3.2.6.2}%
+\contentsline {paragraph}{\numberline {2.3.2.6.3}Skew}{50}{paragraph.2.3.2.6.3}%
+\contentsline {paragraph}{\numberline {2.3.2.6.4}Translate}{51}{paragraph.2.3.2.6.4}%
+\contentsline {paragraph}{\numberline {2.3.2.6.5}Origin}{52}{paragraph.2.3.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.3.2.7}Interactivity}{52}{subsubsection.2.3.2.7}%
+\contentsline {paragraph}{\numberline {2.3.2.7.1}Hover}{52}{paragraph.2.3.2.7.1}%
+\contentsline {paragraph}{\numberline {2.3.2.7.2}Focus}{52}{paragraph.2.3.2.7.2}%
+\contentsline {paragraph}{\numberline {2.3.2.7.3}Active}{53}{paragraph.2.3.2.7.3}%
+\contentsline {paragraph}{\numberline {2.3.2.7.4}Transition}{53}{paragraph.2.3.2.7.4}%
+\contentsline {paragraph}{\numberline {2.3.2.7.5}Animation}{54}{paragraph.2.3.2.7.5}%
+\contentsline {subsubsection}{\numberline {2.3.2.8}Responsive Design}{55}{subsubsection.2.3.2.8}%
+\contentsline {paragraph}{\numberline {2.3.2.8.1}Media Queries}{55}{paragraph.2.3.2.8.1}%
+\contentsline {paragraph}{\numberline {2.3.2.8.2}Responsive Images}{56}{paragraph.2.3.2.8.2}%
+\contentsline {subsection}{\numberline {2.3.3}Frameworks}{56}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Bootstrap}{56}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Tailwind CSS}{57}{subsubsection.2.3.3.2}%
+\contentsline {subsection}{\numberline {2.3.4}More about CSS}{57}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}Version Control}{58}{chapter.3}%
+\contentsline {chapter}{\numberline {4}NextJS}{59}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Mobile Applications Development}{60}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Cloud Computing}{61}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Artificial Intelligence}{62}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Internet of Things and Augmented Reality}{63}{chapter.8}%
