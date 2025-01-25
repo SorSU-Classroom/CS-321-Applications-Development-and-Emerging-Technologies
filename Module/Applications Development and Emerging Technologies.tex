@@ -1290,6 +1290,437 @@ You can find more information about HTML tags from the following sources:
   \item \href{https://assets.hostinger.com/content/tutorials/pdf/HTML-Cheatsheet.pdf}{Hostinger HTML Cheatsheet}
 \end{itemize}
 
+\section{CSS}
+
+\textbf{CSS (Cascading Style Sheets)} is a style sheet that describes how HTML 
+components appear on a page. CSS is used to manage your website's 
+appearance, style, and formatting, including RGB values, border colors, 
+background pictures, and more.
+
+CSS files specify a set of rules for defining a set of properties and
+their values.
+
+\subsection{Core Concepts}
+
+\subsubsection{Cascading and Specificity}
+
+\paragraph{Cascading}
+
+\textbf{Cascading} refers to the process of combining multiple style
+sheets and resolving conflicts between them. When multiple style rules
+apply to the same element, the browser uses a set of rules to determine
+which styles to apply.
+
+\begin{enumerate}
+  \item \textbf{Specificity} - The more specific rule takes precedence.
+  \item \textbf{Order} - The last rule defined takes precedence.
+  \item \textbf{Importance} - The !important rule takes precedence.
+\end{enumerate}
+
+In CSS there are three types of style sheets:
+
+\begin{enumerate}
+  \begin{lstlisting}[language=HTML, caption={Inline CSS}, label={lst:inline-style}]
+  <p style="color: red;">This is a paragraph.</p>
+  \end{lstlisting}
+  
+  \item \textbf{Inline Style} - The inline style is defined within
+  the \textbf{style} attribute of an HTML element. It is used to define
+  styles for a specific element.
+
+  \begin{lstlisting}[language=HTML, caption={Internal CSS}, label={lst:internal-style}]
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+
+  <h1>This is a heading.</h1>
+  \end{lstlisting}
+
+  \item \textbf{Internal Style Sheet} - The internal style sheet is
+  defined within the \textbf{<style>} tag in the \textbf{<head>} section
+  of the HTML document. It is used to define styles for a specific
+  document.
+
+  \begin{lstlisting}[language=HTML, caption={External CSS}, label={lst:external-style}]
+  <link rel="stylesheet" href="styles.css" />
+  
+  <h1>This is a heading.</h1>
+  \end{lstlisting}
+  
+  \item \textbf{External Style Sheet} - The external style sheet is a
+  separate file where you can define all the styles that you want to
+  use on your website. You can link the external style sheet to your
+  HTML document using the \textbf{<link>} tag.
+\end{enumerate}
+
+\paragraph{Specificity}
+
+\textbf{Specificity} is a set of rules that determines which style
+rules apply to an element when multiple rules conflict. Specificity
+is calculated based on the following factors:
+
+\begin{enumerate}
+  \item \textbf{Inline Styles} - Inline styles have the highest
+  specificity and override all other styles.
+  
+  \item \textbf{Element Selectors} - Element selectors have the lowest
+  specificity and are overridden by other selectors.
+
+  \item \textbf{Class Selectors} - Class selectors have a higher
+  specificity than element selectors.
+
+  \item \textbf{ID Selectors} - ID selectors have a higher specificity
+  than class selectors and element selectors.
+  
+  \item \textbf{!important} - The !important rule overrides all other
+  rules and has the highest specificity.
+
+  \item \textbf{Order of Appearance} - If two rules have the same
+  specificity, the rule that appears last in the style sheet takes
+  precedence.
+\end{enumerate}
+
+\subsubsection{Selectors}
+
+In CSS, selectors are used to target HTML elements and apply styles to
+them. There are different types of selectors that can be used to target
+elements based on their type, class, ID, or other attributes.
+
+\paragraph{Element Selector}
+
+The element selector is used to target all elements of a specific type.
+It is defined by the element name without any additional characters.
+
+\begin{lstlisting}[language=HTML, caption={Element Selector}, label={lst:element-selector-html}]
+<p>This is a paragraph.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Element Selector CSS}, label={lst:element-selector-css}]
+p {
+  color: red;
+}
+\end{lstlisting}
+
+Code \ref{lst:element-selector-html} and \ref{lst:element-selector-css}
+show an example of the element selector. In this example, the \textbf{<p>}
+element is targeted using the element selector, and the color of the text
+is set to red.
+
+\paragraph{Class Selector}
+
+The class selector is used to target elements with a specific class.
+It is defined by a period (.) followed by the class name. This selector
+is useful when you want to apply the same style to multiple elements.
+This is generally the most common selector used in CSS.
+
+\begin{lstlisting}[language=HTML, caption={Class Selector}, label={lst:class-selector-html}]
+<p>This is a <span class="highlight">paragraph</span>.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Class Selector CSS}, label={lst:class-selector-css}]
+.highlight-text {
+  background: yellow;
+}
+\end{lstlisting}
+
+Code \ref{lst:class-selector-html} and \ref{lst:class-selector-css} show
+an example of the class selector. In this example, the \textbf{<span>}
+element with the class \textbf{highlight} is targeted using the class
+selector, and the background color is set to yellow.
+
+\paragraph{ID Selector}
+
+The ID selector is used to target a specific element with a unique ID.
+It is defined by a hash (\#) followed by the ID name. This selector is
+used when you want to apply a style to a single element on the page.
+
+\begin{lstlisting}[language=HTML, caption={ID Selector}, label={lst:id-selector-html}]
+<p id="intro">This is an introduction.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={ID Selector CSS}, label={lst:id-selector-css}]
+#intro {
+  font-size: 24px;
+}
+\end{lstlisting}
+
+Code \ref{lst:id-selector-html} and \ref{lst:id-selector-css} show an
+example of the ID selector. In this example, the \textbf{<p>} element
+with the ID \textbf{intro} is targeted using the ID selector, and the
+font size is set to 24 pixels.
+
+\paragraph{Universal Selector}
+
+The universal selector is used to target all elements on the page. It
+is defined by an asterisk (*) character. This selector is used when you
+want to apply a style to all elements on the page.
+
+\begin{lstlisting}[language=HTML, caption={Universal Selector CSS}, label={lst:universal-selector-css}]
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+\end{lstlisting}
+
+Code \ref{lst:universal-selector-css} shows an example of the universal
+selector. In this example, the universal selector is used to apply a
+style to all elements on the page, setting the margin, padding, and
+box-sizing properties.
+
+\paragraph{Pseudo-classes}
+
+Pseudo-classes are used to define a special state of an element. They
+are defined by a colon (:) followed by the pseudo-class name. Pseudo-
+classes are used to style elements based on user interaction or element
+state.
+
+\begin{lstlisting}[language=HTML, caption={Pseudo-class HTML}, label={lst:pseudo-class-html}]
+<a href="https://www.github.com/godkingjay">Visit GitHub</a>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Pseudo-class CSS}, label={lst:pseudo-class-css}]
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: purple;
+}
+\end{lstlisting}
+
+Code \ref{lst:pseudo-class-html} and \ref{lst:pseudo-class-css} show an
+example of pseudo-classes. In this example, the \textbf{<a>} element is
+targeted using the pseudo-classes \textbf{:link}, \textbf{:hover},
+\textbf{:active}, and \textbf{:visited}, which define the styles for
+the link in different states.
+
+\paragraph{Pseudo-elements}
+
+Pseudo-elements are used to style a specific part of an element. They
+are defined by a double colon (::) followed by the pseudo-element name.
+Pseudo-elements are used to style elements based on their position or
+content.
+
+\begin{lstlisting}[language=HTML, caption={Pseudo-element HTML}, label={lst:pseudo-element-html}]
+<p>Velit sit ad aliquip laborum labore. Excepteur tempor ad duis Lorem. Aute labore dolor dolor aliqua eiusmod pariatur ut duis deserunt esse velit.</p>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Pseudo-element CSS}, label={lst:pseudo-element-css}]
+p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 24px;
+}
+
+p::before {
+  content: "Quote: ";
+}
+
+p::after {
+  content: " - Author";
+}
+\end{lstlisting}
+
+Code \ref{lst:pseudo-element-html} and \ref{lst:pseudo-element-css} show
+an example of pseudo-elements. In this example, the \textbf{<p>} element
+is targeted using the pseudo-elements \textbf{::first-line},
+\textbf{::first-letter}, \textbf{::before}, and \textbf{::after}, which
+style the first line, first letter, and add content before and after the
+paragraph.
+
+\subsubsection{The Box Model}
+
+The box model is a fundamental concept in CSS that defines how elements
+are displayed on the page. It consists of four parts: content, padding,
+border, and margin.
+
+% TikZ Picture
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \draw[dashed,fill=gray!10] (0, 0) rectangle (12, 8);
+    \draw[fill=blue!20] (1, 1) rectangle (11, 7);
+    \draw[dashed,fill=gray!10] (2, 2) rectangle (10, 6);
+    \draw[dashed,fill=white] (3, 3) rectangle (9, 5);
+
+    \node at (6, 4) {Content};
+    \node at (6, 5.5) {Padding};
+    \node at (6, 6.5) {Border};
+    \node at (6, 7.5) {Margin};
+  \end{tikzpicture}
+  \caption{The Box Model}
+\end{figure}
+
+\begin{enumerate}
+  \item \textbf{Content} - The content area is where the text and images
+  of the element are displayed. The content area is defined by the width
+  and height of the element.
+
+  \item \textbf{Padding} - The padding area is the space between the
+  content area and the border of the element. Padding is used to create
+  space around the content.
+
+  \item \textbf{Border} - The border area is the line that surrounds the
+  padding and content of the element. The border is used to define the
+  visual appearance of the element.
+
+  \item \textbf{Margin} - The margin area is the space outside the border
+  of the element. The margin is used to create space between elements.
+\end{enumerate}
+
+\subsection{Properties}
+
+\subsubsection{Colors}
+
+\paragraph{Font Color}
+
+\paragraph{Background Color}
+
+\paragraph{Border Color}
+
+\paragraph{Native Colors}
+
+\paragraph{Hexadecimal Colors}
+
+\paragraph{RGB Colors}
+
+\paragraph{HSL Colors}
+
+\paragraph{Gradients}
+
+\paragraph{CSS Background Size}
+
+\paragraph{CSS Background Image}
+
+\subsubsection{Box}
+
+\paragraph{Border}
+
+\paragraph{Margin}
+
+\paragraph{Padding}
+
+\paragraph{Space Between}
+
+\paragraph{Width and Height}
+
+\paragraph{Radius}
+
+\paragraph{Box Shadow}
+
+\paragraph{Opacity}
+
+\subsubsection{Text}
+
+\paragraph{Text Align}
+
+\paragraph{Text Decoration}
+
+\paragraph{Text Transform}
+
+\paragraph{Line Height}
+
+\paragraph{Font Family}
+
+\paragraph{Font Size}
+
+\paragraph{Font Weight}
+
+\paragraph{Font Style}
+
+\subsubsection{Layout}
+
+\paragraph{Display}
+
+\paragraph{Flexbox}
+
+\paragraph{Grid}
+
+\subsubsection{Positioning}
+
+\paragraph{Static}
+
+\paragraph{Relative}
+
+\paragraph{Absolute}
+
+\paragraph{Fixed}
+
+\paragraph{Sticky}
+
+\subsubsection{Transforms}
+
+\paragraph{Scale}
+
+\paragraph{Rotate}
+
+\paragraph{Skew}
+
+\paragraph{Translate}
+
+\paragraph{Origin}
+
+\subsubsection{Interactivity}
+
+\paragraph{Hover}
+
+\paragraph{Focus}
+
+\paragraph{Active}
+
+\paragraph{Transition}
+
+\paragraph{Animation}
+
+\subsubsection{Filters}
+
+\paragraph{Blur}
+
+\paragraph{Brightness}
+
+\paragraph{Contrast}
+
+\paragraph{Drop Shadow}
+
+\paragraph{Grayscale}
+
+\paragraph{Hue Rotate}
+
+\paragraph{Invert}
+
+\paragraph{Opacity}
+
+\paragraph{Saturate}
+
+\paragraph{Sepia}
+
+\subsubsection{Responsive Design}
+
+\paragraph{Media Queries}
+
+\paragraph{Viewport}
+
+\paragraph{Responsive Images}
+
+\subsection{Frameworks}
+
+\subsubsection{Bootstrap}
+
+\subsubsection{Tailwind CSS}
+
 \chapter{Version Control}
 
 \chapter{NextJS}

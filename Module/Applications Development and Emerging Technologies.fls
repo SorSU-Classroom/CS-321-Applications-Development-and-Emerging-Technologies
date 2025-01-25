@@ -487,8 +487,8 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-OUTPUT Applications Development and Emerging Technologies.toc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
+OUTPUT Applications Development and Emerging Technologies.toc
 INPUT ./Applications Development and Emerging Technologies.lof
 INPUT ./Applications Development and Emerging Technologies.lof
 INPUT Applications Development and Emerging Technologies.lof

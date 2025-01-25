@@ -31,3 +31,17 @@
 \contentsline {lstlisting}{\numberline {2.31}{\ignorespaces HTML <label> Tag}}{20}{lstlisting.2.31}%
 \contentsline {lstlisting}{\numberline {2.32}{\ignorespaces HTML <select> Tag}}{20}{lstlisting.2.32}%
 \contentsline {lstlisting}{\numberline {2.33}{\ignorespaces HTML <iframe> Tag}}{21}{lstlisting.2.33}%
+\contentsline {lstlisting}{\numberline {2.34}{\ignorespaces Inline CSS}}{22}{lstlisting.2.34}%
+\contentsline {lstlisting}{\numberline {2.35}{\ignorespaces Internal CSS}}{22}{lstlisting.2.35}%
+\contentsline {lstlisting}{\numberline {2.36}{\ignorespaces External CSS}}{22}{lstlisting.2.36}%
+\contentsline {lstlisting}{\numberline {2.37}{\ignorespaces Element Selector}}{23}{lstlisting.2.37}%
+\contentsline {lstlisting}{\numberline {2.38}{\ignorespaces Element Selector CSS}}{23}{lstlisting.2.38}%
+\contentsline {lstlisting}{\numberline {2.39}{\ignorespaces Class Selector}}{23}{lstlisting.2.39}%
+\contentsline {lstlisting}{\numberline {2.40}{\ignorespaces Class Selector CSS}}{24}{lstlisting.2.40}%
+\contentsline {lstlisting}{\numberline {2.41}{\ignorespaces ID Selector}}{24}{lstlisting.2.41}%
+\contentsline {lstlisting}{\numberline {2.42}{\ignorespaces ID Selector CSS}}{24}{lstlisting.2.42}%
+\contentsline {lstlisting}{\numberline {2.43}{\ignorespaces Universal Selector CSS}}{24}{lstlisting.2.43}%
+\contentsline {lstlisting}{\numberline {2.44}{\ignorespaces Pseudo-class HTML}}{25}{lstlisting.2.44}%
+\contentsline {lstlisting}{\numberline {2.45}{\ignorespaces Pseudo-class CSS}}{25}{lstlisting.2.45}%
+\contentsline {lstlisting}{\numberline {2.46}{\ignorespaces Pseudo-element HTML}}{25}{lstlisting.2.46}%
+\contentsline {lstlisting}{\numberline {2.47}{\ignorespaces Pseudo-element CSS}}{25}{lstlisting.2.47}%
