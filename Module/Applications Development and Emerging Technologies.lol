@@ -45,3 +45,13 @@
 \contentsline {lstlisting}{\numberline {2.45}{\ignorespaces Pseudo-class CSS}}{25}{lstlisting.2.45}%
 \contentsline {lstlisting}{\numberline {2.46}{\ignorespaces Pseudo-element HTML}}{25}{lstlisting.2.46}%
 \contentsline {lstlisting}{\numberline {2.47}{\ignorespaces Pseudo-element CSS}}{25}{lstlisting.2.47}%
+\contentsline {lstlisting}{\numberline {2.48}{\ignorespaces Font Color}}{27}{lstlisting.2.48}%
+\contentsline {lstlisting}{\numberline {2.49}{\ignorespaces Background Color}}{28}{lstlisting.2.49}%
+\contentsline {lstlisting}{\numberline {2.50}{\ignorespaces Border Color}}{28}{lstlisting.2.50}%
+\contentsline {lstlisting}{\numberline {2.51}{\ignorespaces Color Names}}{28}{lstlisting.2.51}%
+\contentsline {lstlisting}{\numberline {2.52}{\ignorespaces Hexadecimal Colors}}{29}{lstlisting.2.52}%
+\contentsline {lstlisting}{\numberline {2.53}{\ignorespaces RGB Colors}}{29}{lstlisting.2.53}%
+\contentsline {lstlisting}{\numberline {2.54}{\ignorespaces HSL Colors}}{30}{lstlisting.2.54}%
+\contentsline {lstlisting}{\numberline {2.55}{\ignorespaces Gradients}}{30}{lstlisting.2.55}%
+\contentsline {lstlisting}{\numberline {2.56}{\ignorespaces Background Image}}{30}{lstlisting.2.56}%
+\contentsline {lstlisting}{\numberline {2.57}{\ignorespaces Background Size}}{30}{lstlisting.2.57}%

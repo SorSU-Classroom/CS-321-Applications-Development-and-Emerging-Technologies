@@ -1560,6 +1560,11 @@ border, and margin.
     \node at (6, 5.5) {Padding};
     \node at (6, 6.5) {Border};
     \node at (6, 7.5) {Margin};
+
+    \node at (6, 8.5) {Top};
+    \node at (13, 4) {Right};
+    \node at (-1, 4) {Left};
+    \node at (6, -0.5) {Bottom};
   \end{tikzpicture}
   \caption{The Box Model}
 \end{figure}
@@ -1581,29 +1586,233 @@ border, and margin.
   of the element. The margin is used to create space between elements.
 \end{enumerate}
 
+\subsubsection{Units}
+
+In CSS, there are different units that can be used to define the size
+of elements. Some of the common units include:
+
+\begin{enumerate}
+  \item \textbf{Pixels (px)} - Pixels are a fixed unit of measurement
+  that is used to define the size of elements in terms of screen pixels.
+  Pixels are an absolute unit and do not change based on the screen size.
+
+  \item \textbf{Percent (\%)} - Percentages are a relative unit of
+  measurement that is used to define the size of elements as a percentage
+  of the parent element. Percentages are relative to the parent element
+  and change based on the size of the parent element.
+
+  \item \textbf{Em (em)} - Em is a relative unit of measurement that is
+  used to define the size of elements relative to the font size of the
+  parent element. Em is relative to the font size of the parent element
+  and changes based on the font size of the parent element.
+
+  \item \textbf{Rem (rem)} - Rem is a relative unit of measurement that
+  is used to define the size of elements relative to the font size of the
+  root element (html). Rem is relative to the font size of the root element
+  and does not change based on the font size of the parent element.
+
+  \item \textbf{Viewport Width (vw)} - Viewport width is a relative unit
+  of measurement that is used to define the size of elements relative to
+  the width of the viewport. Viewport width is relative to the width of
+  the viewport and changes based on the size of the viewport.
+
+  \item \textbf{Viewport Height (vh)} - Viewport height is a relative unit
+  of measurement that is used to define the size of elements relative to
+  the height of the viewport. Viewport height is relative to the height of
+  the viewport and changes based on the size of the viewport.
+\end{enumerate}
+
 \subsection{Properties}
 
 \subsubsection{Colors}
 
+In CSS, colors can be specified using different formats, such as color
+names, hexadecimal values, RGB values, and HSL values.
+
 \paragraph{Font Color}
+
+The \textbf{color} property is used to set the color of the text.
+
+\begin{lstlisting}[language=HTML, caption={Font Color}, label={lst:font-color}]
+p {
+  color: red;
+}
+\end{lstlisting}
+
+Code \ref{lst:font-color} shows an example of the \textbf{color} property.
+In this example, the color of the text in the \textbf{<p>} element is set
+to red.
 
 \paragraph{Background Color}
 
+The \textbf{background-color} property is used to set the background color
+of an element.
+
+\begin{lstlisting}[language=HTML, caption={Background Color}, label={lst:background-color}]
+body {
+  background-color: lightblue;
+}
+\end{lstlisting}
+
+Code \ref{lst:background-color} shows an example of the
+\textbf{background-color} property. In this example, the background color
+of the body element is set to light blue.
+
 \paragraph{Border Color}
 
-\paragraph{Native Colors}
+The \textbf{border-color} property is used to set the color of the border
+of an element.
+
+\begin{lstlisting}[language=HTML, caption={Border Color}, label={lst:border-color}]
+div {
+  border: 1px solid black;
+}
+\end{lstlisting}
+
+Code \ref{lst:border-color} shows an example of the \textbf{border-color}
+property. In this example, the border color of the \textbf{<div>} element
+is set to black.
+
+\paragraph{Color Names}
+
+CSS provides a set of predefined color names that can be used to specify
+colors. Some of the common color names include:
+
+\begin{itemize}
+  \item \textbf{Red} - red
+  \item \textbf{Green} - green
+  \item \textbf{Blue} - blue
+  \item \textbf{Black} - black
+  \item \textbf{White} - white
+  \item \textbf{Yellow} - yellow
+  \item \textbf{Purple} - purple
+  \item \textbf{Orange} - orange
+  \item \textbf{Gray} - gray
+  \item \textbf{Brown} - brown
+  \item \textbf{Pink} - pink
+  \item \href{https://www.w3schools.com/tags/ref_colornames.asp}{More...}
+\end{itemize}
+
+\begin{lstlisting}[language=HTML, caption={Color Names}, label={lst:color-names}]
+p {
+  color: blue;
+}
+\end{lstlisting}
+
+Code \ref{lst:color-names} shows an example of using color names to set
+the color of the text in the \textbf{<p>} element to blue.
 
 \paragraph{Hexadecimal Colors}
 
-\paragraph{RGB Colors}
+\textbf{Hexadecimal colors} are represented using a six-digit code that
+defines the amount of red, green, and blue as well as the transparency
+of the color. The code starts with a hash (\#) followed by the six-digit
+hexadecimal code - \textbf{\#RRGGBB}. Eight digits can be used to include the
+alpha channel - \textbf{\#RRGGBBAA}.
 
-\paragraph{HSL Colors}
+\begin{lstlisting}[language=HTML, caption={Hexadecimal Colors}, label={lst:hex-colors}]
+p {
+  color: #ff0000; /* Red */
+  background-color: #00ff00; /* Green */
+  border-color: #0000ff; /* Blue */
+}
+
+div {
+  background: #ffff00ff; /* Yellow with 100% opacity */
+}
+\end{lstlisting}
+
+Code \ref{lst:hex-colors} shows an example of using hexadecimal colors to
+set the color of the text, background, and border of the \textbf{<p>} element
+to red, green, and blue, respectively. The color of the text in the \textbf{<div>}
+element is set to yellow with 100\% opacity.
+
+\paragraph{RGB or RGBA Colors}
+
+\textbf{RGB colors} are represented using the RGB color model, which defines
+the amount of red, green, and blue in the color. The RGB color is defined
+using the \textbf{rgb()} function with three values for red, green, and blue.
+The \textbf{RGBA colors} include an additional value for the alpha channel
+(transparency) and are defined using the \textbf{rgba()} function.
+
+\begin{lstlisting}[language=HTML, caption={RGB Colors}, label={lst:rgb-colors}]
+p {
+  color: rgb(255, 0, 0); /* Red */
+  background-color: rgba(0, 255, 0, 0.5); /* Green with 50% opacity */
+}
+\end{lstlisting}
+
+Code \ref{lst:rgb-colors} shows an example of using RGB and RGBA colors to
+set the color of the text in the \textbf{<p>} element to red and the background
+color to green with 50\% opacity.
+
+\paragraph{HSL or HSLA Colors}
+
+\textbf{HSL colors} are represented using the HSL color model, which defines
+the hue, saturation, and lightness of the color. The HSL color is defined
+using the \textbf{hsl()} function with three values for hue, saturation, and
+lightness. The \textbf{HSLA colors} include an additional value for the alpha
+channel (transparency) and are defined using the \textbf{hsla()} function.
+
+\begin{lstlisting}[language=HTML, caption={HSL Colors}, label={lst:hsl-colors}]
+p {
+  color: hsl(0, 100\%, 50\%); /* Red */
+  background-color: hsla(120, 100\%, 50\%, 0.5); /* Green with 50\% opacity */
+}
+\end{lstlisting}
+
+Code \ref{lst:hsl-colors} shows an example of using HSL and HSLA colors to
+set the color of the text in the \textbf{<p>} element to red and the background
+color to green with 50\% opacity.
 
 \paragraph{Gradients}
 
-\paragraph{CSS Background Size}
+\textbf{Gradients} are used to create a smooth transition between two or more
+colors. Gradients can be linear or radial and can be defined using the
+\textbf{linear-gradient()} or \textbf{radial-gradient()} function.
+
+\begin{lstlisting}[language=HTML, caption={Gradients}, label={lst:gradients}]
+p {
+  background: linear-gradient(to right, red, blue);
+}
+\end{lstlisting}
+
+Code \ref{lst:gradients} shows an example of using gradients to create a
+linear gradient background for the \textbf{<p>} element that transitions from
+red to blue.
 
 \paragraph{CSS Background Image}
+
+The \textbf{background-image} property is used to specify the background image
+for an element. The value can be a URL to an image file or a gradient.
+
+\begin{lstlisting}[language=HTML, caption={Background Image}, label={lst:background-image}]
+div {
+  background-image: url('https://picsum.photos/200');
+}
+\end{lstlisting}
+
+Code \ref{lst:background-image} shows an example of using the \textbf{background-image}
+property to set the background image for the \textbf{<div>} element to an image
+from the URL.
+
+\paragraph{CSS Background Size}
+
+The \textbf{background-size} property is used to specify the size of the
+background image. It can be set to a specific size, such as \textbf{cover}
+or \textbf{contain}, or to a percentage of the element's width and height.
+
+\begin{lstlisting}[language=HTML, caption={Background Size}, label={lst:background-size}]
+div {
+  background-image: url('https://picsum.photos/200');
+  background-size: cover;
+}
+\end{lstlisting}
+
+Code \ref{lst:background-size} shows an example of using the \textbf{background-size}
+property to set the size of the background image for the \textbf{<div>} element
+to cover the entire element.
+
 
 \subsubsection{Box}
 
@@ -1720,6 +1929,16 @@ border, and margin.
 \subsubsection{Bootstrap}
 
 \subsubsection{Tailwind CSS}
+
+\subsection{More about CSS}
+
+You can find more information about CSS properties from the following sources:
+
+\begin{itemize}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/Reference}{MDN Web Docs CSS Reference}
+  \item \href{https://www.w3schools.com/cssref/default.asp}{W3Schools CSS Reference}
+  \item \href{https://www.toptal.com/css/css-cheat-sheet}{Toptal CSS Cheat Sheet}
+\end{itemize}
 
 \chapter{Version Control}
 
