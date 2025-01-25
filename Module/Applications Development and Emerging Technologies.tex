@@ -863,12 +863,16 @@ It requires the \textbf{href} attribute to specify the
 URL of the link.
 
 \begin{lstlisting}[language=HTML, caption={HTML <a> Tag}, label={lst:a-tag}]
-<a href="https://www.github.com/godkingjay">Visit GitHub</a>
+<a href="https://www.github.com/godkingjay" target="_blank>Visit GitHub</a>
 \end{lstlisting}
 
 Code \ref{lst:a-tag} shows an example of the \textbf{<a>} tag. This tag
 is used to create a hyperlink in the document, which links to the
 specified URL. The \textbf{href} attribute specifies the URL of the link.
+The \textbf{target} attribute specifies where to open the link. Its
+value can be \textbf{\_blank} to open the link in a new tab or
+\textbf{\_self} to open the link in the same tab. By default, the link
+opens in the same tab.
 
 \subsubsection{<ul>...</ul>}
 
