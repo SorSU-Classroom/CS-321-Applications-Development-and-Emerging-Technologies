@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  25 JAN 2025 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  25 JAN 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1243,21 +1243,21 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `"Applications Development and Emerging Technologies".out' has not changed.
-(rerunfilecheck)             Checksum: A57527C8ACFEAC91EAA8826A88ACF163;8938.
+(rerunfilecheck)             Checksum: F537581303CDB09FC8B2767167C5FA00;9081.
  ) 
 Here is how much of TeX's memory you used:
- 34839 strings out of 473207
- 653732 string characters out of 5720461
- 1426444 words of memory out of 5000000
- 56823 multiletter control sequences out of 15000+600000
+ 34841 strings out of 473207
+ 653766 string characters out of 5720461
+ 1425444 words of memory out of 5000000
+ 56824 multiletter control sequences out of 15000+600000
  671170 words of font info for 235 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,1382b,2277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Applications Development and Emerging Technologies.pdf" (34 pages, 390547 bytes).
+Output written on "Applications Development and Emerging Technologies.pdf" (34 pages, 391203 bytes).
 PDF statistics:
- 991 PDF objects out of 1000 (max. 8388607)
- 904 compressed objects within 10 object streams
- 394 named destinations out of 1000 (max. 500000)
- 63037 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 999 PDF objects out of 1000 (max. 8388607)
+ 912 compressed objects within 10 object streams
+ 395 named destinations out of 1000 (max. 500000)
+ 63045 words of extra memory for PDF output out of 74296 (max. 10000000)
 

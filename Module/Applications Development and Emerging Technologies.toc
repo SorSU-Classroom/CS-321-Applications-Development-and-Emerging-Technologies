@@ -51,6 +51,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1.28}<label>...</label>}{20}{subsubsection.2.2.1.28}%
 \contentsline {subsubsection}{\numberline {2.2.1.29}<select>...</select>}{20}{subsubsection.2.2.1.29}%
 \contentsline {subsubsection}{\numberline {2.2.1.30}<iframe>...</iframe>}{21}{subsubsection.2.2.1.30}%
+\contentsline {subsection}{\numberline {2.2.2}More about HTML}{21}{subsection.2.2.2}%
 \contentsline {chapter}{\numberline {3}Version Control}{22}{chapter.3}%
 \contentsline {chapter}{\numberline {4}NextJS}{23}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Mobile Applications Development}{24}{chapter.5}%
