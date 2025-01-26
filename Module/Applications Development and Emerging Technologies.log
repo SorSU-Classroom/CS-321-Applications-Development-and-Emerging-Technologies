@@ -1087,4 +1087,266 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-{c:/texlive/2024/te
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 \end{dedication}
+                      [1
+
+] (./Applications Development and Emerging Technologies.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 6.
+
+
+[2
+
+
+]
+
+[3]
+
+[4])
+\tf@toc=\write5
+\openout5 = `"Applications Development and Emerging Technologies.toc"'.
+
+
+
+[5] (./Applications Development and Emerging Technologies.lof)
+\tf@lof=\write6
+\openout6 = `"Applications Development and Emerging Technologies.lof"'.
+
+
+
+[6
+
+] (./Applications Development and Emerging Technologies.lot)
+\tf@lot=\write7
+\openout7 = `"Applications Development and Emerging Technologies.lot"'.
+
+
+
+[7
+
+] (./Applications Development and Emerging Technologies.lol
+
+[8
+
+]
+
+[9])
+\tf@lol=\write8
+\openout8 = `"Applications Development and Emerging Technologies.lol"'.
+
+
+
+[10]
+
+[1
+
+
+]
+ 1.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 216.
+(c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+[2
+
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+ 2.
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 565.
+
+
+[8
+
+]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+[25]
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+
+[39]
+
+[40]
+
+[41]
+
+[42]
+
+[43]
+
+[44]
+
+[45]
+
+[46]
+
+[47]
+
+[48]
+
+[49]
+
+[50]
+
+[51]
+
+LaTeX Warning: Reference `lst:translate-css' on page 52 undefined on input line 2862.
+
+
+
+[52]
+
+[53]
+
+[54]
+
+[55]
+
+[56]
+
+[57]
+
+[58]
+
+[59]
+
+[60]
+ 3.
+
+
+[61
+
+]
+ 4.
+
+
+[62
+
+]
+ 5.
+
+
+[63
+
+]
+ 6.
+
+
+[64
+
+]
+ 7.
+
+
+[65
+
+]
+ 8.
+
+
+[66
+
+] (./Applications Development and Emerging Technologies.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `"Applications Development and Emerging Technologies".out' has not changed.
+(rerunfilecheck)             Checksum: 78DBE58A41043EF0C40E592D02307C95;18885.
+ ) 
+Here is how much of TeX's memory you used:
+ 36254 strings out of 473207
+ 677933 string characters out of 5720461
+ 1426444 words of memory out of 5000000
+ 57065 multiletter control sequences out of 15000+600000
+ 672630 words of font info for 251 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,11n,121p,1382b,2277s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on "Applications Development and Emerging Technologies.pdf" (77 pages, 532803 bytes).
+PDF statistics:
+ 3062 PDF objects out of 3580 (max. 8388607)
+ 2912 compressed objects within 30 object streams
+ 1535 named destinations out of 1728 (max. 500000)
+ 63653 words of extra memory for PDF output out of 74296 (max. 10000000)
+
