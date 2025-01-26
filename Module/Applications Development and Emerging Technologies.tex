@@ -2953,16 +2953,16 @@ color, or other styles of the element.
 \begin{lstlisting}[language=HTML, caption={Focus CSS}, label={lst:focus-css}]
 input {
   padding: 10px;
-  border: 1px solid lightblue;
+  background: lightblue;
 }
 
 input:focus {
-  border-color: lightcoral;
+  background: lightcoral;
 }
 \end{lstlisting}
 
 Code \ref{lst:focus-html} and \ref{lst:focus-css} show an example of the
-\textbf{focus} property. In this example, the border color of the
+\textbf{focus} property. In this example, the background color of the
 \textbf{<input>} element is changed to \textbf{lightcoral} when it receives
 focus.
 
@@ -2991,7 +2991,8 @@ button:active {
 
 Code \ref{lst:active-html} and \ref{lst:active-css} show an example of the
 \textbf{active} property. In this example, the background color of the
-\textbf{<button>} element is changed to lightcoral when it is activated.
+\textbf{<button>} element is changed to \textbf{lightcoral} when it is
+activated.
 
 \paragraph{Transition}
 
@@ -3025,6 +3026,14 @@ the \textbf{transition} property. In this example, the background color of the
 \textbf{<button>} element is changed to \textbf{lightcoral} and the scale is
 increased when the mouse hovers over it, creating a smooth transition effect.
 
+Read more about CSS transitions from the following sources:
+
+\begin{itemize}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions}{MDN Web Docs CSS Transitions}
+  \item \href{https://www.w3schools.com/css/css3_transitions.asp}{W3Schools CSS Transitions}
+  \item \href{https://css-tricks.com/almanac/properties/t/transition/}{CSS-Tricks Transition}
+\end{itemize}
+
 \paragraph{Animation}
 
 The \textbf{animation} property is used to create animations for an element.
@@ -3042,7 +3051,6 @@ delay, and iteration count to create different animation effects.
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .item {
@@ -3073,6 +3081,101 @@ Read more about CSS animations from the following sources:
   \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations}{MDN Web Docs CSS Animations}
   \item \href{https://www.w3schools.com/css/css3_animations.asp}{W3Schools CSS Animations}
   \item \href{https://css-tricks.com/almanac/properties/a/animation/}{CSS-Tricks Animation}
+\end{itemize}
+
+\subsection{Filters}
+
+The \textbf{filter} property is used to apply visual effects to an element. The
+filter property can be set to \textbf{blur}, \textbf{brightness},
+\textbf{contrast}, \textbf{grayscale}, \textbf{hue-rotate}, \textbf{invert},
+\textbf{saturate}, \textbf{sepia}, \textbf{drop-shadow}, or a combination of
+these values.
+
+\begin{lstlisting}[language=HTML, caption={Filter HTML}, label={lst:filter-html}]
+<div class="container">
+  <div class="item blur">Blur</div>
+  <div class="item brightness">Brightness</div>
+  <div class="item contrast">Contrast</div>
+  <div class="item grayscale">Grayscale</div>
+  <div class="item hue-rotate">Hue Rotate</div>
+  <div class="item invert">Invert</div>
+  <div class="item saturate">Saturate</div>
+  <div class="item sepia">Sepia</div>
+  <div class="item drop-shadow">Drop Shadow</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Filter CSS}, label={lst:filter-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur {
+  background-color: blue;
+  filter: blur(5px);
+}
+
+.brightness {
+  background-image: url('https://picsum.photos/200');
+  filter: brightness(150%);
+}
+
+.contrast {
+  background-color: red;
+  filter: contrast(200%);
+}
+
+.grayscale {
+  background-color: yellow;
+  filter: grayscale(100%);
+}
+
+.hue-rotate {
+  background-color: purple;
+  filter: hue-rotate(90deg);
+}
+
+.invert {
+  background-color: orange;
+  filter: invert(100%);
+}
+
+.saturate {
+  background-color: pink;
+  filter: saturate(50%);
+}
+
+.sepia {
+  background-color: brown;
+  filter: sepia(100%);
+}
+
+.drop-shadow {
+  background-color: lightblue;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+\end{lstlisting}
+
+Code \ref{lst:filter-html} and \ref{lst:filter-css} show an example of the
+\textbf{filter} property. In this example, different visual effects are applied
+to the \textbf{<div>} elements using the filter property.
+
+Read more about CSS filters from the following sources:
+
+\begin{itemize}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/filter}{MDN Web Docs CSS Filters}
+  \item \href{https://www.w3schools.com/cssref/css3_pr_filter.asp}{W3Schools CSS Filters}
+  \item \href{https://css-tricks.com/almanac/properties/f/filter/}{CSS-Tricks Filter}
 \end{itemize}
 
 \subsubsection{Responsive Design}

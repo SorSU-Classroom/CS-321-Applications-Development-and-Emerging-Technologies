@@ -130,7 +130,9 @@
 \contentsline {lstlisting}{\numberline {2.130}{\ignorespaces Transition CSS}}{55}{lstlisting.2.130}%
 \contentsline {lstlisting}{\numberline {2.131}{\ignorespaces Animation HTML}}{55}{lstlisting.2.131}%
 \contentsline {lstlisting}{\numberline {2.132}{\ignorespaces Animation CSS}}{55}{lstlisting.2.132}%
-\contentsline {lstlisting}{\numberline {2.133}{\ignorespaces Media Queries HTML}}{56}{lstlisting.2.133}%
-\contentsline {lstlisting}{\numberline {2.134}{\ignorespaces Media Queries CSS}}{56}{lstlisting.2.134}%
-\contentsline {lstlisting}{\numberline {2.135}{\ignorespaces Responsive Images HTML}}{57}{lstlisting.2.135}%
-\contentsline {lstlisting}{\numberline {2.136}{\ignorespaces Responsive Images CSS}}{57}{lstlisting.2.136}%
+\contentsline {lstlisting}{\numberline {2.133}{\ignorespaces Filter HTML}}{56}{lstlisting.2.133}%
+\contentsline {lstlisting}{\numberline {2.134}{\ignorespaces Filter CSS}}{57}{lstlisting.2.134}%
+\contentsline {lstlisting}{\numberline {2.135}{\ignorespaces Media Queries HTML}}{58}{lstlisting.2.135}%
+\contentsline {lstlisting}{\numberline {2.136}{\ignorespaces Media Queries CSS}}{58}{lstlisting.2.136}%
+\contentsline {lstlisting}{\numberline {2.137}{\ignorespaces Responsive Images HTML}}{59}{lstlisting.2.137}%
+\contentsline {lstlisting}{\numberline {2.138}{\ignorespaces Responsive Images CSS}}{59}{lstlisting.2.138}%

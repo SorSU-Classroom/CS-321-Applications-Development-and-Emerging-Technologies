@@ -120,16 +120,17 @@
 \contentsline {paragraph}{\numberline {2.3.2.7.3}Active}{54}{paragraph.2.3.2.7.3}%
 \contentsline {paragraph}{\numberline {2.3.2.7.4}Transition}{55}{paragraph.2.3.2.7.4}%
 \contentsline {paragraph}{\numberline {2.3.2.7.5}Animation}{55}{paragraph.2.3.2.7.5}%
-\contentsline {subsubsection}{\numberline {2.3.2.8}Responsive Design}{56}{subsubsection.2.3.2.8}%
-\contentsline {paragraph}{\numberline {2.3.2.8.1}Media Queries}{56}{paragraph.2.3.2.8.1}%
-\contentsline {paragraph}{\numberline {2.3.2.8.2}Responsive Images}{57}{paragraph.2.3.2.8.2}%
-\contentsline {subsection}{\numberline {2.3.3}Frameworks}{58}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Bootstrap}{58}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Tailwind CSS}{58}{subsubsection.2.3.3.2}%
-\contentsline {subsection}{\numberline {2.3.4}More about CSS}{58}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}Version Control}{59}{chapter.3}%
-\contentsline {chapter}{\numberline {4}NextJS}{60}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Mobile Applications Development}{61}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Cloud Computing}{62}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Artificial Intelligence}{63}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Internet of Things and Augmented Reality}{64}{chapter.8}%
+\contentsline {subsection}{\numberline {2.3.3}Filters}{56}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Responsive Design}{58}{subsubsection.2.3.3.1}%
+\contentsline {paragraph}{\numberline {2.3.3.1.1}Media Queries}{58}{paragraph.2.3.3.1.1}%
+\contentsline {paragraph}{\numberline {2.3.3.1.2}Responsive Images}{59}{paragraph.2.3.3.1.2}%
+\contentsline {subsection}{\numberline {2.3.4}Frameworks}{60}{subsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.4.1}Bootstrap}{60}{subsubsection.2.3.4.1}%
+\contentsline {subsubsection}{\numberline {2.3.4.2}Tailwind CSS}{60}{subsubsection.2.3.4.2}%
+\contentsline {subsection}{\numberline {2.3.5}More about CSS}{60}{subsection.2.3.5}%
+\contentsline {chapter}{\numberline {3}Version Control}{61}{chapter.3}%
+\contentsline {chapter}{\numberline {4}NextJS}{62}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Mobile Applications Development}{63}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Cloud Computing}{64}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Artificial Intelligence}{65}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Internet of Things and Augmented Reality}{66}{chapter.8}%
