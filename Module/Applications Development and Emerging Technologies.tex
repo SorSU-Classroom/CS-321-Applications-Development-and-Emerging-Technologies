@@ -2446,8 +2446,8 @@ You can learn more about Flexbox and Grid by visiting the following links:
 The \textbf{position} property is used to set the positioning behavior of an
 element. The position property can be set to \textbf{static},
 \textbf{relative}, \textbf{absolute}, \textbf{fixed}, or \textbf{sticky}. The
-static value is the default value and does not affect the position of the
-element.
+\textbf{static} value is the default value and does not affect the position of
+the element.
 
 \begin{lstlisting}[language=HTML, caption={Static HTML}, label={lst:static-html}]
 <div class="container">
@@ -2473,7 +2473,7 @@ element.
 
 Code \ref{lst:static-html} and \ref{lst:static-css} show an example of the
 \textbf{position} property. In this example, the position property of the
-\textbf{<div>} element is set to static, which is the default value.
+\textbf{<div>} element is set to \textbf{static}, which is the default value.
 
 \paragraph{Relative}
 
@@ -2508,9 +2508,10 @@ in the document flow, and then offset by the specified values.
 \end{lstlisting}
 
 Code \ref{lst:relative-html} and \ref{lst:relative-css} show an example of the
-\textbf{position} property with a value of relative. In this example, the
-position of the \textbf{<div>} element is set to relative, and the top and left
-properties are used to offset the element by 10 pixels.
+\textbf{position} property with a value of \textbf{relative}. In this example,
+the position of the \textbf{<div>} element is set to \textbf{relative}, and the
+\textbf{top} and \textbf{left} properties are used to offset the element by 10
+pixels.
 
 \paragraph{Absolute}
 
@@ -2562,9 +2563,10 @@ element is positioned relative to the document body.
 \end{lstlisting}
 
 Code \ref{lst:absolute-html} and \ref{lst:absolute-css} show an example of the
-\textbf{position} property with a value of absolute. In this example, the
-position of the \textbf{<div>} elements is set to absolute, and the top, right,
-bottom, and left properties are used to position the elements in the container.
+\textbf{position} property with a value of \textbf{absolute}. In this example,
+the position of the \textbf{<div>} elements is set to \textbf{absolute}, and
+the \textbf{top}, \textbf{right}, \textbf{bottom}, and \textbf{left} properties
+are used to position the elements in the container.
 
 \paragraph{Fixed}
 
@@ -2612,15 +2614,16 @@ when the page is scrolled.
 \end{lstlisting}
 
 Code \ref{lst:fixed-html} and \ref{lst:fixed-css} show an example of the
-\textbf{position} property with a value of fixed. In this example, the position
-of the \textbf{<div>} element is set to fixed, and the top and right properties
-are used to position the element on the screen.
+\textbf{position} property with a value of \textbf{fixed}. In this example, the
+position of the \textbf{<div>} element is set to \textbf{fixed}, and the
+\textbf{top} and \textbf{right} properties are used to position the element on
+the screen.
 
 \paragraph{Sticky}
 
 A \textbf{sticky} position is used to set the position of an element relative
 to its containing block. The element remains in the normal flow until it
-reaches a specified scroll position, at which point it becomes fixed.
+reaches a specified scroll position, at which point it becomes \textbf{fixed}.
 
 \begin{lstlisting}[language=HTML, caption={Sticky HTML}, label={lst:sticky-html}]
 <div class="container">
@@ -2660,9 +2663,18 @@ reaches a specified scroll position, at which point it becomes fixed.
 \end{lstlisting}
 
 Code \ref{lst:sticky-html} and \ref{lst:sticky-css} show an example of the
-\textbf{position} property with a value of sticky. In this example, the
-position of the \textbf{<div>} element is set to sticky, and the top property
-is used to position the element on the screen.
+\textbf{position} property with a value of \textbf{sticky}. In this example,
+the position of the \textbf{<div>} element is set to \textbf{sticky}, and the
+\textbf{top} property is used to position the element on the screen.
+
+\paragraph{More on Positioning}
+
+You can learn more about positioning by visiting the following links:
+
+\begin{itemize}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/position}{Position}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index}{Z-Index}
+\end{itemize}
 
 \subsubsection{Transforms}
 
@@ -2688,19 +2700,21 @@ set to a specific size, such as 1.5 or 0.5, to scale the element up or down.
 .item {
   width: 100px;
   height: 100px;
-  background-color: lightblue;
 }
 
 .item1 {
   transform: scale(1.5);
+  background-color: lightblue;
 }
 
 .item2 {
   transform: scale(0.5);
+  background-color: lightcoral;
 }
 
 .item3 {
   transform: scale(2);
+  background-color: lightgreen;
 }
 \end{lstlisting}
 
@@ -2732,19 +2746,21 @@ element.
 .item {
   width: 100px;
   height: 100px;
-  background-color: lightblue;
 }
 
 .item1 {
   transform: rotate(45deg);
+  background-color: lightblue;
 }
 
 .item2 {
   transform: rotate(90deg);
+  background-color: lightcoral;
 }
 
 .item3 {
   transform: rotate(180deg);
+  background-color: lightgreen;
 }
 \end{lstlisting}
 
@@ -2776,19 +2792,21 @@ element.
 .item {
   width: 100px;
   height: 100px;
-  background-color: lightblue;
 }
 
 .item1 {
   transform: skew(30deg);
+  background-color: lightblue;
 }
 
 .item2 {
   transform: skew(-30deg);
+  background-color: lightcoral;
 }
 
 .item3 {
   transform: skew(45deg);
+  background-color: lightgreen;
 }
 \end{lstlisting}
 
@@ -2819,19 +2837,21 @@ element.
 .item {
   width: 100px;
   height: 100px;
-  background-color: lightblue;
 }
 
 .item1 {
   transform: translate(10px, 10px);
+  background-color: lightblue;
 }
 
 .item2 {
   transform: translate(-10px, -10px);
+  background-color: lightcoral;
 }
 
 .item3 {
   transform: translate(20px, 20px);
+  background-color: lightgreen;
 }
 \end{lstlisting}
 
@@ -2846,6 +2866,49 @@ The \textbf{transform-origin} property is used to set the origin of the
 transformed element. The origin value can be set to a specific position, such
 as top left, center, or bottom right, to change the origin of the
 transformation.
+
+\begin{lstlisting}[language=HTML, caption={Origin HTML}, label={lst:origin-html}]
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[language=HTML, caption={Origin CSS}, label={lst:origin-css}]
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+}
+
+.item1 {
+  transform: rotate(45deg);
+  transform-origin: top left;
+  background-color: lightblue;
+}
+
+.item2 {
+  transform: rotate(45deg);
+  transform-origin: center;
+  background-color: lightcoral;
+}
+
+.item3 {
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+  background-color: lightgreen;
+}
+\end{lstlisting}
+
+Code \ref{lst:origin-html} and \ref{lst:origin-css} show an example of the
+\textbf{transform-origin} property. In this example, the origin of the
+transformation of the \textbf{<div>} elements is set to top left, center, and
+bottom right, creating different origin effects for the elements.
 
 \subsubsection{Interactivity}
 
@@ -2900,7 +2963,8 @@ input:focus {
 
 Code \ref{lst:focus-html} and \ref{lst:focus-css} show an example of the
 \textbf{focus} property. In this example, the border color of the
-\textbf{<input>} element is changed to lightcoral when it receives focus.
+\textbf{<input>} element is changed to \textbf{lightcoral} when it receives
+focus.
 
 \paragraph{Active}
 

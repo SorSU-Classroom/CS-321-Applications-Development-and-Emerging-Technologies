@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  26 JAN 2025 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  26 JAN 2025 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1106,19 +1106,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 
-[3])
+[3]
+
+[4])
 \tf@toc=\write5
 \openout5 = `"Applications Development and Emerging Technologies.toc"'.
 
 
 
-[4] (./Applications Development and Emerging Technologies.lof)
+[5] (./Applications Development and Emerging Technologies.lof)
 \tf@lof=\write6
 \openout6 = `"Applications Development and Emerging Technologies.lof"'.
 
 
 
-[5
+[6
 
 ] (./Applications Development and Emerging Technologies.lot)
 \tf@lot=\write7
@@ -1126,21 +1128,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-[6
+[7
 
 ] (./Applications Development and Emerging Technologies.lol
 
-[7
+[8
 
 ]
 
-[8])
+[9])
 \tf@lol=\write8
 \openout8 = `"Applications Development and Emerging Technologies.lol"'.
 
 
 
-[9]
+[10]
 
 [1
 
@@ -1264,7 +1266,7 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 
 [51]
 
-LaTeX Warning: Reference `lst:translate-css' on page 52 undefined on input line 2838.
+LaTeX Warning: Reference `lst:translate-css' on page 52 undefined on input line 2858.
 
 
 
@@ -1279,40 +1281,42 @@ LaTeX Warning: Reference `lst:translate-css' on page 52 undefined on input line 
 [56]
 
 [57]
+
+[58]
  3.
-
-
-[58
-
-]
- 4.
 
 
 [59
 
 ]
- 5.
+ 4.
 
 
 [60
 
 ]
- 6.
+ 5.
 
 
 [61
 
 ]
- 7.
+ 6.
 
 
 [62
 
 ]
- 8.
+ 7.
 
 
 [63
+
+]
+ 8.
+
+
+[64
 
 ] (./Applications Development and Emerging Technologies.aux)
  ***********
@@ -1324,21 +1328,21 @@ L3 programming layer <2024-12-25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Applications Development and Emerging Technologies".out' has not changed.
-(rerunfilecheck)             Checksum: CEBD18037D5A1CF5CA908FCF2A8A9DAB;18610.
+(rerunfilecheck)             Checksum: 6E231207E62DEEC60EE4B6C232E18863;18787.
  ) 
 Here is how much of TeX's memory you used:
- 36130 strings out of 473207
- 675798 string characters out of 5720461
+ 36178 strings out of 473207
+ 676622 string characters out of 5720461
  1426444 words of memory out of 5000000
- 57059 multiletter control sequences out of 15000+600000
+ 57062 multiletter control sequences out of 15000+600000
  672630 words of font info for 251 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,1382b,2277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Applications Development and Emerging Technologies.pdf" (73 pages, 521351 bytes).
+Output written on "Applications Development and Emerging Technologies.pdf" (75 pages, 526129 bytes).
 PDF statistics:
- 2880 PDF objects out of 2984 (max. 8388607)
- 2736 compressed objects within 28 object streams
- 1417 named destinations out of 1440 (max. 500000)
- 63637 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2950 PDF objects out of 2984 (max. 8388607)
+ 2803 compressed objects within 29 object streams
+ 1462 named destinations out of 1728 (max. 500000)
+ 63645 words of extra memory for PDF output out of 74296 (max. 10000000)
 
