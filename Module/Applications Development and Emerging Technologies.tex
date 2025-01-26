@@ -2360,19 +2360,21 @@ flex property can be set to \textbf{flex-grow}, \textbf{flex-shrink},
 .item {
   flex: 1;
   height: 100px;
-  background-color: lightblue;
 }
-
+  
 .item1 {
   flex: 2;
+  background-color: lightblue;
 }
 
 .item2 {
   flex: 1;
+  background-color: lightcoral;
 }
 
 .item3 {
   flex: 1;
+  background-color: lightgreen;
 }
 \end{lstlisting}
 
@@ -2405,28 +2407,37 @@ values.
   <div class="item1">Item 1</div>
   <div class="item2">Item 2</div>
   <div class="item3">Item 3</div>
+  <div class="item4">Item 4</div>
+  <div class="item5">Item 5</div>
+  <div class="item6">Item 6</div>
+  <div class="item7">Item 7</div>
+  <div class="item8">Item 8</div>
+  <div class="item9">Item 9</div>
 </div>
 \end{lstlisting}
 
 \begin{lstlisting}[language=HTML, caption={Grid CSS}, label={lst:grid-css}]
-.container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-block: 10px;
+  }
 
-.container2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 10px;
-}
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    margin-block: 10px;
+  }
 
-.container3 {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-gap: 10px;
-} 
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    margin-block: 10px;
+  }
 \end{lstlisting}
 
 Code \ref{lst:grid-html} and \ref{lst:grid-css} show an example of the
