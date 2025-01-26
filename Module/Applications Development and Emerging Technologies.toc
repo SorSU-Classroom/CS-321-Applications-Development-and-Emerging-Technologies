@@ -100,9 +100,10 @@
 \contentsline {paragraph}{\numberline {2.3.2.4.1}Display}{41}{paragraph.2.3.2.4.1}%
 \contentsline {paragraph}{\numberline {2.3.2.4.2}Flexbox}{42}{paragraph.2.3.2.4.2}%
 \contentsline {paragraph}{\numberline {2.3.2.4.3}Grid}{43}{paragraph.2.3.2.4.3}%
+\contentsline {paragraph}{\numberline {2.3.2.4.4}More on Flexbox and Grid}{44}{paragraph.2.3.2.4.4}%
 \contentsline {subsubsection}{\numberline {2.3.2.5}Positioning}{44}{subsubsection.2.3.2.5}%
 \contentsline {paragraph}{\numberline {2.3.2.5.1}Static}{44}{paragraph.2.3.2.5.1}%
-\contentsline {paragraph}{\numberline {2.3.2.5.2}Relative}{44}{paragraph.2.3.2.5.2}%
+\contentsline {paragraph}{\numberline {2.3.2.5.2}Relative}{45}{paragraph.2.3.2.5.2}%
 \contentsline {paragraph}{\numberline {2.3.2.5.3}Absolute}{45}{paragraph.2.3.2.5.3}%
 \contentsline {paragraph}{\numberline {2.3.2.5.4}Fixed}{46}{paragraph.2.3.2.5.4}%
 \contentsline {paragraph}{\numberline {2.3.2.5.5}Sticky}{47}{paragraph.2.3.2.5.5}%
@@ -121,8 +122,8 @@
 \contentsline {subsubsection}{\numberline {2.3.2.8}Responsive Design}{55}{subsubsection.2.3.2.8}%
 \contentsline {paragraph}{\numberline {2.3.2.8.1}Media Queries}{55}{paragraph.2.3.2.8.1}%
 \contentsline {paragraph}{\numberline {2.3.2.8.2}Responsive Images}{56}{paragraph.2.3.2.8.2}%
-\contentsline {subsection}{\numberline {2.3.3}Frameworks}{56}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Bootstrap}{56}{subsubsection.2.3.3.1}%
+\contentsline {subsection}{\numberline {2.3.3}Frameworks}{57}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Bootstrap}{57}{subsubsection.2.3.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.3.2}Tailwind CSS}{57}{subsubsection.2.3.3.2}%
 \contentsline {subsection}{\numberline {2.3.4}More about CSS}{57}{subsection.2.3.4}%
 \contentsline {chapter}{\numberline {3}Version Control}{58}{chapter.3}%
