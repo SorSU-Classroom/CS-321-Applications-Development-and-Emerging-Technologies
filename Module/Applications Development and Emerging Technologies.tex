@@ -1696,9 +1696,11 @@ alpha channel - \textbf{\#RRGGBBAA}.
 
 \begin{lstlisting}[language=HTML, caption={Hexadecimal Colors CSS}, label={lst:hex-colors-css}]
 div {
-  color: #ff0000; /* Red */
-  background-color: #00ff00; /* Green */
-  border-color: #0000ff; /* Blue */
+  color: #ff0000; 
+  background-color: #00ff00; 
+  border-color: #0000ff; 
+  border-width: 1px;
+  border-style: solid;
 }
 \end{lstlisting}
 
@@ -1720,7 +1722,7 @@ The \textbf{RGBA colors} include an additional value for the alpha channel
 
 \begin{lstlisting}[language=HTML, caption={RGB Colors CSS}, label={lst:rgb-colors-css}]
 p {
-  color: rgb(255, 0, 0); /* Red */
+  color: rgb(255, 0, 0); 
   background-color: rgba(0, 255, 0, 0.5); /* Green with 50% opacity */
 }
 \end{lstlisting}
@@ -1743,7 +1745,7 @@ channel (transparency) and are defined using the \textbf{hsla()} function.
 
 \begin{lstlisting}[language=HTML, caption={HSL Colors CSS}, label={lst:hsl-colors-css}]
 p {
-  color: hsl(0, 100%, 50%); /* Red */
+  color: hsl(0, 100%, 50%); 
   background-color: hsla(120, 100%, 50%, 0.5); /* Green with 50% opacity */
 }
 \end{lstlisting}
