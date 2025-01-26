@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  26 JAN 2025 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  26 JAN 2025 13:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1335,18 +1335,18 @@ Package rerunfilecheck Info: File `"Applications Development and Emerging Techno
 (rerunfilecheck)             Checksum: 78DBE58A41043EF0C40E592D02307C95;18885.
  ) 
 Here is how much of TeX's memory you used:
- 36254 strings out of 473207
- 677941 string characters out of 5720461
+ 36250 strings out of 473207
+ 677869 string characters out of 5720461
  1426444 words of memory out of 5000000
  57065 multiletter control sequences out of 15000+600000
  672630 words of font info for 251 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,1382b,2277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Applications Development and Emerging Technologies.pdf" (77 pages, 532401 bytes).
+Output written on "Applications Development and Emerging Technologies.pdf" (77 pages, 532532 bytes).
 PDF statistics:
- 3059 PDF objects out of 3580 (max. 8388607)
- 2909 compressed objects within 30 object streams
- 1535 named destinations out of 1728 (max. 500000)
+ 3058 PDF objects out of 3580 (max. 8388607)
+ 2908 compressed objects within 30 object streams
+ 1531 named destinations out of 1728 (max. 500000)
  63653 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -3197,43 +3197,47 @@ used to create responsive designs that adapt to different screen sizes.
 \begin{lstlisting}[language=HTML, caption={Media Queries CSS}, label={lst:media-queries-css}]
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .item {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
   background-color: lightblue;
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    flex-direction: row;
-  }
-
   .item {
-    width: 50px;
+    width: 100px;
+    height: 100px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .item {
-    width: 25px;
-  }
-}
-
-@media screen and (max-width: 200px) {
-  .item {
-    width: 10px;
+  .container {
+    flex-direction: column;
   }
 }
 \end{lstlisting}
 
 Code \ref{lst:media-queries-html} and \ref{lst:media-queries-css} show an
 example of media queries. In this example, the flex direction of the
-\textbf{<div>} elements is changed to row when the screen width is less than
-600 pixels, and the width of the elements is adjusted for different screen
-sizes.
+\textbf{<div>} elements is changed to column when the screen width is less than
+400 pixels, and the width and height of the elements are changed when the
+screen width is less than 600 pixels.
+
+Read more about media queries from the following sources:
+
+\begin{itemize}
+  \item \href{https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries}{MDN Web Docs Media Queries}
+  \item \href{https://www.w3schools.com/css/css_rwd_mediaqueries.asp}{W3Schools Media Queries}
+  \item \href{https://css-tricks.com/a-complete-guide-to-css-media-queries/}{CSS-Tricks Media Queries}
+\end{itemize}
 
 \paragraph{Responsive Images}
 
