@@ -1,3 +1,27 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
   padding: 16px;
+}
+
+.content {
+  font-size: 32px;
+  border-width: 8px;
+  height: 360px;
+  background-image: url('https://picsum.photos/200');
+  background-size: cover;
+}
+
+li {
+  background: pink;
+  margin: 8px;
+  color: blue;
+}
+
+li:nth-child(odd) {
+  background: yellow;
 }
